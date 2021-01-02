@@ -135,7 +135,7 @@
   },
   "WoWPaladin:Rebuke": {
     "NAME": "Rebuke",
-    "DESCRIPTION": "Deal 12 Damage. NL Gain !M! Holy."
+    "DESCRIPTION": "Deal !D! Damage. NL Gain !M! Holy."
   },
   "WoWPaladin:Judgement": {
     "NAME": "Judgement",
@@ -217,7 +217,7 @@
   },
   "WoWPaladin:AvengersShield": {
     "NAME": "Avenger's Shield",
-    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain !B! for each enemy in combat."
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain !B! block for each enemy in combat."
   },
   "WoWPaladin:AvengingWrath": {
     "NAME": "Avenging Wrath",

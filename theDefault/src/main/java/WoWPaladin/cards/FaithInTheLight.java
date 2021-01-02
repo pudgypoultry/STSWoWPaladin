@@ -57,14 +57,14 @@ public class FaithInTheLight extends CustomCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
-        // Remove all orbs without evoking
+        if(!this.upgraded){
+            AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
+            // Remove all orbs without evoking
+        }
+
         AbstractDungeon.actionManager.addToBottom(new ChannelAction(new SealOfLight()));
         // Channel a Seal of Righteousness.
-        AbstractDungeon.actionManager.addToBottom(
-                new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(
-                        AbstractDungeon.player, AbstractDungeon.player, new HolyPower(p, 1), 1)
-        );
+
     }
 
     // Upgraded stats.
