@@ -122,7 +122,7 @@
   },
   "WoWPaladin:TemplarsVerdict": {
     "NAME": "Templar's Verdict",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! or more Holy, NL spend it and deal that much plus 15 instead."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! or more Holy, spend it and deal that much plus 15 instead."
   },
   "WoWPaladin:Prayer": {
     "NAME": "Prayer",
@@ -169,7 +169,7 @@
   },
   "WoWPaladin:CrusadersJudgement": {
     "NAME": "Crusader's Judgement",
-    "DESCRIPTION": "Draw !M! Cards. NL Deal damage equal to the number of cards in your hand( !D! )"
+    "DESCRIPTION": "Draw !M! Card(s). NL Deal damage equal to the number of cards in your hand( !D! )"
   },
   "WoWPaladin:BlessedBreastplate": {
     "NAME": "Blessed Breastplate",
@@ -230,7 +230,7 @@
   },
   "WoWPaladin:GuidingStrike": {
     "NAME": "Guiding Strike",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! Holy, send it and retain your hand this turn."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! Holy, spend it and retain your hand this turn."
   },
   "WoWPaladin:FistOfTheHeavens": {
     "NAME": "Fist of the Heavens",

@@ -52,7 +52,7 @@ public class FistOfTheHeavens extends CustomCard {
     public FistOfTheHeavens() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
-        baseDamage = DAMAGE;
+        this.damage = baseDamage = DAMAGE;
 
     }
 
@@ -61,15 +61,15 @@ public class FistOfTheHeavens extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
 
         AbstractDungeon.actionManager.addToBottom( // The action managed queues all the actions a card should do.
-                new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
+                new DamageAction(m, new DamageInfo(p, damage + AbstractDungeon.player.hand.size(), damageTypeForTurn),
                         AbstractGameAction.AttackEffect.SLASH_HORIZONTAL)); // The animation the damage action uses to hit.
     }
-
+/*
     @Override
     public void calculateCardDamage(AbstractMonster mo) {
-        this.baseDamage = this.damage = DAMAGE + AbstractDungeon.player.hand.size();
+        this.damage = this.baseDamage += AbstractDungeon.player.hand.size();
     }
-
+*/
     // Upgraded stats.
     @Override
     public void upgrade() {

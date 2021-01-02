@@ -71,7 +71,7 @@ public class PlaceholderPotion extends CustomPotion {
     // This is your potency.
     @Override
     public int getPotency(final int potency) {
-        return 2;
+        return 5;
     }
 
     public void upgradePotion()

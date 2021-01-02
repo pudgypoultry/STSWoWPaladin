@@ -58,14 +58,10 @@ public class TemplarsVerdict extends CustomCard {
 
     public TemplarsVerdict() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        baseDamage = DAMAGE;
-        this.tags.add(CardTags.STRIKE);
+        this.damage = baseDamage = DAMAGE;
         this.magicNumber = baseMagicNumber = MAGIC;
-        new Whirlwind();
     }
-
-
-
+/*
     @Override
     public void applyPowers() {
         int originalBaseDamage = this.baseDamage;
@@ -91,13 +87,14 @@ public class TemplarsVerdict extends CustomCard {
         this.block = activeDamage;
         this.isBlockModified = activeDamage != ACTIVATED_DAMAGE;
     }
+*/
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if ((AbstractDungeon.player.hasPower(HolyPower.POWER_ID)) && AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount >= this.magicNumber) {
             AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, HolyPower.POWER_ID, this.magicNumber));
             AbstractDungeon.actionManager.addToBottom(
-                    new DamageAction(m, new DamageInfo(p, block, damageTypeForTurn), // Use block variable, because that's where the activated damage was stored.
+                    new DamageAction(m, new DamageInfo(p, damage + 15, damageTypeForTurn), // Use block variable, because that's where the activated damage was stored.
                             AbstractGameAction.AttackEffect.FIRE));
         }
         else {

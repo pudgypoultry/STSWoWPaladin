@@ -1,6 +1,5 @@
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\LoseHolyPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Aegis.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultRarePower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\CrusaderStrike.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\RarePower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Smite.java
@@ -22,20 +21,13 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\HolySmite.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\FlashOfLight.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\OptionCards\SmiteThem.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultAttackWithVariable.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultCommonSkill.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Resolve.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\PurgePower.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\OrbSkill.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\util\TextureLoader.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultUncommonAttack.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Vindicate.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultSecondMagicNumberSkill.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\relics\BottledPlaceholderRelic.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\ContemplativeMeditation.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\ConcentrationAuraPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\WeaponizedZeal.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\CardTemplate.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\variables\DefaultSecondMagicNumber.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\EqualizingSwath.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\characters\ThePaladin.java
@@ -43,7 +35,6 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\OathOfChains.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\GuidingStrike.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\util\IDCheckDontTouchPls.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultRareSkill.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\OathOfPiety.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\HandOfReckoning.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\relics\AshbringerRelic.java
@@ -77,14 +68,11 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Purge.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\BracePower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\BlessingOfWisdom.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultUncommonSkill.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\ValiantCharge.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\TemplarsVerdict.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\ResistanceAuraPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\AvengersShield.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\SacredCross.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultCommonAttack.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultRareAttack.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\LightsMeditation.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\HammerOfJustice.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DivineBulwark.java
@@ -99,7 +87,6 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\relics\DefaultClickableRelic.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\variables\DefaultCustomVariable.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\ConcentrationAura.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultUncommonPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\RetributionAura.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\AbstractDynamicCard.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Prayer.java
@@ -111,4 +98,3 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\ResistanceAura.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\ConsecrationPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\WoWPaladin.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\DefaultCommonPower.java

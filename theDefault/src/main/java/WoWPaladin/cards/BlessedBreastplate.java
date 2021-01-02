@@ -33,6 +33,7 @@ public class BlessedBreastplate extends CustomCard {
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 1;
     private static final int BLOCK = 8;
+    private static final int UPGRADED_BLOCK = 3;
 
     public BlessedBreastplate() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -50,7 +51,7 @@ public class BlessedBreastplate extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.block = 11;
+            upgradeBlock(UPGRADED_BLOCK);
         }
     }
 

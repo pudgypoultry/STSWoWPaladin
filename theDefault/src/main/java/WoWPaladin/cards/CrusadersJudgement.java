@@ -42,9 +42,6 @@ public class CrusadersJudgement extends CustomCard {
 
 
 
-
-
-
     public CrusadersJudgement() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = MAGIC_NUMBER;
