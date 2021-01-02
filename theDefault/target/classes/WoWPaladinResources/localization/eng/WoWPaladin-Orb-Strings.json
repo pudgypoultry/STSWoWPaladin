@@ -1,0 +1,36 @@
+{
+  "WoWPaladin:DefaultOrb": {
+    "NAME": "Default Orb",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, draw #b",
+      " card.",
+      " cards.",
+      " NL #yEvoke: Deal #b",
+      " damage to all enemies."
+    ]
+  },
+
+  "WoWPaladin:SealOfRighteousness": {
+    "NAME": "Seal of Righteousness",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, gain #b",
+      " Plated Armor. NL #yEvoke: Spend all Holy. Gain #b10 block per Holy spent."
+    ]
+  },
+
+  "WoWPaladin:SealOfLight": {
+    "NAME": "Seal of Light",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, heal #b",
+      " HP. NL #yEvoke: Spend all Holy. Heal #b5 HP per Holy spent."
+    ]
+  },
+
+  "WoWPaladin:SealOfJustice": {
+    "NAME": "Seal of Justice",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, gain #b",
+      " Thorns. NL #yEvoke: Spend all Holy. Deal #b7 damage to each enemy per Holy spent."
+    ]
+  }
+}
