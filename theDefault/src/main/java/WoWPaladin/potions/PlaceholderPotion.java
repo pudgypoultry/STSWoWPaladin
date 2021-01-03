@@ -1,6 +1,7 @@
 package WoWPaladin.potions;
 
 import WoWPaladin.WoWPaladin;
+import WoWPaladin.powers.HolyPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -24,13 +25,13 @@ public class PlaceholderPotion extends CustomPotion {
 
     public PlaceholderPotion() {
         // The bottle shape and inside is determined by potion size and color. The actual colors are the main DefaultMod.java
-        super(NAME, POTION_ID, PotionRarity.COMMON, PotionSize.M, PotionColor.SMOKE);
+        super(NAME, POTION_ID, PotionRarity.UNCOMMON, PotionSize.FAIRY, PotionColor.ANCIENT);
         
         // Potency is the damage/magic number equivalent of potions.
         potency = getPotency();
         
         // Initialize the Description
-        description = DESCRIPTIONS[0] + potency + DESCRIPTIONS[2] + DESCRIPTIONS[1] + potency + DESCRIPTIONS[2];
+        description = DESCRIPTIONS[0] + potency + DESCRIPTIONS[1];
         
        // Do you throw this potion at an enemy or do you just consume it.
         isThrown = false;
@@ -58,8 +59,7 @@ public class PlaceholderPotion extends CustomPotion {
         target = AbstractDungeon.player;
         // If you are in combat, gain strength and the "lose strength at the end of your turn" power, equal to the potency of this potion.
         if (AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT) {
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(target, AbstractDungeon.player, new StrengthPower(target, potency), potency));
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(target, AbstractDungeon.player, new LoseStrengthPower(target, potency), potency));
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(target, AbstractDungeon.player, new HolyPower(AbstractDungeon.player, potency), potency));
         }
     }
     

@@ -33,7 +33,7 @@ public class BlessingOfKings extends CustomCard {
     //Stat value variable declarations
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.UNCOMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.SELF;
-    private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
+    private static final AbstractCard.CardType TYPE = AbstractCard.CardType.POWER;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 2;
     private static final int MAGIC_NUMBER = 2;

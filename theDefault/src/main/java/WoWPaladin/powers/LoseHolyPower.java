@@ -37,7 +37,8 @@ public class LoseHolyPower extends AbstractPower {
 
     public void atEndOfTurn(boolean isPlayer) {
         this.flash();
-        this.addToBot(new ApplyPowerAction(this.owner, this.owner, new HolyPower(this.owner, -this.amount), -this.amount));
+        //this.addToBot(new ApplyPowerAction(this.owner, this.owner, new HolyPower(this.owner, -this.amount), -this.amount));
+        this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, HolyPower.POWER_ID));
         this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, POWER_ID));
     }
 
