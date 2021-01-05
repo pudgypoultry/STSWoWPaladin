@@ -6,6 +6,7 @@ import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -76,6 +77,14 @@ public class DivineStorm extends CustomCard {
             for (int i = 0; i < devo; i++) {
                 p.hand.addToHand(new DivineStorm(true, this.upgraded));
             }
+        }
+    }
+
+    public void triggerOnGlowCheck() {
+        if ((AbstractDungeon.player.hasPower(HolyPower.POWER_ID))) {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+        } else {
+            this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
         }
     }
 

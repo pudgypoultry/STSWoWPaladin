@@ -14,7 +14,7 @@
     "NAME": "Seal of Righteousness",
     "DESCRIPTION": [
       "#yPassive: At the start of your turn, gain #b",
-      " Plated Armor. NL #yEvoke: Spend all Holy. Gain #b10 block per Holy spent."
+      " Block. NL #yEvoke: Spend all Holy. Gain #b10 block per Holy spent."
     ]
   },
 

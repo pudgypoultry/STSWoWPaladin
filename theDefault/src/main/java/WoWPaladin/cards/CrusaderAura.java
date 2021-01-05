@@ -39,9 +39,8 @@ public class CrusaderAura extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.POWER;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final int MAGIC = 1;
-    private static final int UPGRADE_MAGIC = 1;
 
     // /STAT DECLARATION/
 
@@ -62,7 +61,7 @@ public class CrusaderAura extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            this.isInnate = true;
             initializeDescription();
         }
     }

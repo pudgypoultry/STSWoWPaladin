@@ -41,7 +41,7 @@ public class RighteousDuty extends CustomCard {
 
     // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
@@ -52,7 +52,6 @@ public class RighteousDuty extends CustomCard {
 
     public RighteousDuty() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.exhaust = true;
     }
 
     // Actions the card should do.
@@ -73,7 +72,6 @@ public class RighteousDuty extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.exhaust = false;
             this.rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
         }

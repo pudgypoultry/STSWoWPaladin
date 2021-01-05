@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.optionCards.BecomeAlmighty;
 import com.megacrit.cardcrawl.cards.optionCards.FameAndFortune;
 import com.megacrit.cardcrawl.cards.optionCards.LiveForever;
+import com.megacrit.cardcrawl.cards.red.InfernalBlade;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -67,6 +68,10 @@ public class Smite extends CustomCard {
                     new DamageAction(m, new DamageInfo(p, damage * AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount, damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         }
+    }
+
+    public AbstractCard makeCopy() {
+        return new Smite();
     }
 
     @Override

@@ -59,8 +59,9 @@ public class HammerOfWrath extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         ArrayList<AbstractCard> stanceChoices = new ArrayList();
-        stanceChoices.add(new SealEvoke());
         stanceChoices.add(new SmiteThem());
+        stanceChoices.add(new SealEvoke());
+
 
         if (this.upgraded) {
             Iterator var4 = stanceChoices.iterator();

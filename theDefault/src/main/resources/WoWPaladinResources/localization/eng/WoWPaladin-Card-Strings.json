@@ -99,18 +99,18 @@
   },
   "WoWPaladin:RighteousDuty": {
     "NAME": "Righteous Duty",
-    "DESCRIPTION": "Remove your seal. Channel a Seal of Righteousness. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a Seal of Righteousness. Exhaust."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_righteousness. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_righteousness."
   },
   "WoWPaladin:FaithInTheLight": {
     "NAME": "Faith In The Light",
-    "DESCRIPTION": "Remove your seal. Channel a Seal of Light. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a Seal of Light. Exhaust."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_light. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_light."
   },
   "WoWPaladin:JusticeForAll": {
     "NAME": "Justice For All",
-    "DESCRIPTION": "Remove your seal. Channel a Seal of Justice. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a Seal of Justice. Exhaust."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_justice. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_justice."
   },
   "WoWPaladin:WakeOfAshes": {
     "NAME": "Wake of Ashes",
@@ -209,7 +209,7 @@
   },
   "WoWPaladin:Aegis": {
     "NAME": "Aegis",
-    "DESCRIPTION": "Gain !M! buffer. NL Gain !M! artifact."
+    "DESCRIPTION": "The next !M! times you would take damage, prevent it. NL Gain !M! artifact."
   },
   "WoWPaladin:ArdentDefense": {
     "NAME": "Ardent Defense",
@@ -245,7 +245,7 @@
     "DESCRIPTION": "Deal !D! damage X times. NL Valiance - do this 2X times."
   },
   "WoWPaladin:ValiantCharge": {
-    "NAME": "Valiant Charge",
+    "NAME": "Valiant Rush",
     "DESCRIPTION": "Deal !D! damage. Valiance - Gain block equal to unblocked damage dealt."
   },
   "WoWPaladin:HammerOfWrath": {
@@ -257,8 +257,8 @@
     "DESCRIPTION": "Evoke your seal."
   },
   "WoWPaladin:SmiteThem": {
-    "NAME": "Smite",
-    "DESCRIPTION": "Add a Smite to your hand."
+    "NAME": "Smite Them Down!",
+    "DESCRIPTION": "Add a Smite to your hand. NL The next attack you play this turn costs 0."
   },
   "WoWPaladin:Smite": {
     "NAME": "Smite",
@@ -274,7 +274,7 @@
   },
   "WoWPaladin:RapturousCharge": {
     "NAME": "Rapturous Charge",
-    "DESCRIPTION": "Deal !D! damage to each enemy. NL Valiance - Apply !B! vulnerable to each enemy."
+    "DESCRIPTION": "Deal !D! damage to each enemy. NL Valiance - Apply !M! vulnerable to each enemy."
   },
   "WoWPaladin:RighteousExpulsion": {
     "NAME": "Righteous Expulsion",
@@ -334,7 +334,8 @@
   },
   "WoWPaladin:CrusaderAura": {
     "NAME": "Crusader Aura",
-    "DESCRIPTION": "At the beginning of each round, retain cards equal to your holy."
+    "DESCRIPTION": "At the beginning of each round, retain cards equal to your holy.",
+    "UPGRADE_DESCRIPTION": "At the beginning of each round, retain cards equal to your holy. NL Innate."
   },
   "WoWPaladin:Consecration": {
     "NAME": "Consecration",

@@ -50,7 +50,7 @@ public class OathOfPiety extends CustomCard {
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final int BLOCK = 5;
     private static final int MAGIC_NUMBER = 1;
     private static final int UPGRADE_BLOCK = 3;

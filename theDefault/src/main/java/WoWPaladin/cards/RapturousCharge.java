@@ -53,7 +53,7 @@ public class RapturousCharge extends CustomCard {
     private static final int COST = 1;
     private static final int DAMAGE = 6;
     private static final int UPGRADE_DAMAGE = 4;
-    private static final int BLOCK = 2;
+    private static final int MAGIC = 2;
 
     // /STAT DECLARATION/
 
@@ -61,7 +61,7 @@ public class RapturousCharge extends CustomCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
         baseDamage = DAMAGE;
-        baseBlock = BLOCK;
+        this.magicNumber = baseMagicNumber = MAGIC;
         this.isMultiDamage = true;
     }
 
@@ -75,7 +75,7 @@ public class RapturousCharge extends CustomCard {
 
             while (var3.hasNext()) {
                 AbstractMonster mo = (AbstractMonster) var3.next();
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new VulnerablePower(mo, block, false), block, true, AbstractGameAction.AttackEffect.NONE));
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new VulnerablePower(mo, magicNumber, false), magicNumber, true, AbstractGameAction.AttackEffect.NONE));
             }
         }
     }
