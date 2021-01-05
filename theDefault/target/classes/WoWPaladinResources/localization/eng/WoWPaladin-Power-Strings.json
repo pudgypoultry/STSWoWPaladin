@@ -9,7 +9,7 @@
         },
         "WoWPaladin:HolyPower": {
                 "NAME": "Holy",
-                "DESCRIPTIONS": ["You currently have #b", " #yHoly."]
+                "DESCRIPTIONS": ["You currently have #b", " #yHoly. NL (Maximum 5)"]
         },
         "WoWPaladin:FlexFocus": {
                 "NAME": "Focus Down",
