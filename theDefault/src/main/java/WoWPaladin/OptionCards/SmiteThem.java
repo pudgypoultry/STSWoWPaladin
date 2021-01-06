@@ -77,8 +77,6 @@ public class SmiteThem extends CustomCard {
     public void onChoseThisOption(){
 
         AbstractDungeon.player.hand.addToHand(new Smite());
-        this.addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FreeAttackPower(AbstractDungeon.player, 1), 1));
-
     }
 
     public AbstractCard makeCopy() {

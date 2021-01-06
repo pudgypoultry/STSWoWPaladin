@@ -46,9 +46,10 @@ public class JusticeDemandsRetributionAction extends AbstractGameAction {
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {
                 AbstractDungeon.actionManager.clearPostCombatActions();
             }
-            else{
+            /*else{
                 this.target.damage(this.info);
             }
+            */
         }
 
         this.tickDuration();

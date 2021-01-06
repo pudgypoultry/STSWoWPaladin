@@ -40,7 +40,7 @@ public class Purge extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.POWER;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final int MAGIC = 3;
     private static final int UPGRADE_MAGIC = 2;
 
@@ -65,6 +65,7 @@ public class Purge extends AbstractDynamicCard {
             upgradeName();
             upgradeMagicNumber(UPGRADE_MAGIC);
             rawDescription = UPGRADE_DESCRIPTION;
+            this.isInnate = true;
             initializeDescription();
         }
     }

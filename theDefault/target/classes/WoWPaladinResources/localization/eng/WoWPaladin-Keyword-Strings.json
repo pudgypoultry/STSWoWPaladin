@@ -22,7 +22,8 @@
     "NAMES": [
       "Seal of Righteousness",
       "seal_of_righteousness",
-      "sealofrighteousness"
+      "sealofrighteousness",
+      "Seal_of_Righteousness"
     ],
     "DESCRIPTION": "Passive: Gain 2 block at the beginning of turn. NL Evoke: Spend all holy. Gain 10 block per holy spent."
   },
@@ -31,7 +32,8 @@
     "NAMES": [
       "Seal of Justice",
       "seal_of_justice",
-      "sealofjustice"
+      "sealofjustice",
+      "Seal_of_Justice"
     ],
     "DESCRIPTION": "Passive: Gain 1 thorns at the beginning of turn. NL Evoke: Spend all holy. Deal 7 damage to each enemy per holy spent."
   },
@@ -40,8 +42,16 @@
     "NAMES": [
       "Seal of Light",
       "seal_of_light",
-      "sealoflight"
+      "sealoflight",
+      "Seal_of_Justice"
     ],
     "DESCRIPTION": "Passive: Gain 1 regeneration at the beginning of turn. NL Evoke: Spend all holy. Heal 5 hp per holy spent."
+  },
+  {
+    "NAMES": [
+      "valiance",
+      "Valiance"
+    ],
+    "DESCRIPTION": "Valiance effects are active in elite and boss rooms only."
   }
 ]

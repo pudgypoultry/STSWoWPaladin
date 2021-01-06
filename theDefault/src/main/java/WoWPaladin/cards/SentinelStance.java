@@ -13,6 +13,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import java.util.Iterator;
+
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
 public class SentinelStance extends CustomCard {
@@ -48,7 +50,7 @@ public class SentinelStance extends CustomCard {
     private static final int BLOCK = 7;
     private static final int MAGIC = 2;
     private static final int UPGRADE_MAGIC_NUMBER = 3;
-
+    private boolean isEliteOrBoss;
 
 
     // /STAT DECLARATION/
@@ -66,11 +68,38 @@ public class SentinelStance extends CustomCard {
         }
     }
 */
+
+    public void atTurnStart() {
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+    public void triggerWhenCopied(){
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+
+
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, block)); //Block + Plated
-        if(AbstractDungeon.getCurrRoom().eliteTrigger){
+        if(AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss){
             AbstractDungeon.actionManager.addToBottom(
                     new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player,
                             new com.megacrit.cardcrawl.powers.PlatedArmorPower(AbstractDungeon.player, magicNumber), magicNumber));
@@ -78,7 +107,7 @@ public class SentinelStance extends CustomCard {
     }
 
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         } else {
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();

@@ -6,6 +6,7 @@ import WoWPaladin.actions.HammerOfWrathAction;
 import WoWPaladin.characters.ThePaladin;
 import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.defect.EvokeOrbAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -19,6 +20,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import WoWPaladin.OptionCards.SealEvoke;
+import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -62,6 +64,7 @@ public class HammerOfWrath extends CustomCard {
         stanceChoices.add(new SmiteThem());
         stanceChoices.add(new SealEvoke());
 
+        this.addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FreeAttackPower(AbstractDungeon.player, 1), 1));
 
         if (this.upgraded) {
             Iterator var4 = stanceChoices.iterator();

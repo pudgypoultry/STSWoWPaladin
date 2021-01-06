@@ -13,6 +13,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import java.util.Iterator;
+
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
 public class ArdentDefense extends CustomCard {
@@ -48,7 +50,7 @@ public class ArdentDefense extends CustomCard {
     private static final int BLOCK = 7;
     private static final int MAGIC = 5;
     private static final int UPGRADE_MAGIC_NUMBER = 3;
-
+    boolean isEliteOrBoss;
 
 
     // /STAT DECLARATION/
@@ -57,6 +59,30 @@ public class ArdentDefense extends CustomCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.magicNumber = baseMagicNumber = MAGIC;
         this.block = baseBlock = BLOCK;
+    }
+
+    public void atTurnStart() {
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+    public void triggerWhenCopied(){
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
     }
 /*
     @Override
@@ -70,18 +96,19 @@ public class ArdentDefense extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, block)); //Block
-        if(AbstractDungeon.getCurrRoom().eliteTrigger){
+        if(AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss){
             AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, magicNumber)); //Block + Extra Block
         }
     }
 
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         } else {
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
         }
     }
+
 
     // Upgraded stats.
     @Override

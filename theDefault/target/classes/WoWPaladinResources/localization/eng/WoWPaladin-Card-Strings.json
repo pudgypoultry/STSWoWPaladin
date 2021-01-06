@@ -99,18 +99,18 @@
   },
   "WoWPaladin:RighteousDuty": {
     "NAME": "Righteous Duty",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_righteousness. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_righteousness."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Righteousness. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness."
   },
   "WoWPaladin:FaithInTheLight": {
     "NAME": "Faith In The Light",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_light. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_light."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Light. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Light."
   },
   "WoWPaladin:JusticeForAll": {
     "NAME": "Justice For All",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:seal_of_justice. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:seal_of_justice."
+    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Justice. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice."
   },
   "WoWPaladin:WakeOfAshes": {
     "NAME": "Wake of Ashes",
@@ -148,7 +148,7 @@
   },
   "WoWPaladin:SentinelStance": {
     "NAME": "Sentinel Stance",
-    "DESCRIPTION": "Gain !B! block. NL Valiance - Gain !M! plated armor."
+    "DESCRIPTION": "Gain !B! block. NL wowpaladin:Valiance - Gain !M! plated armor."
   },
   "WoWPaladin:BlindingLight": {
     "NAME": "Blinding Light",
@@ -156,8 +156,8 @@
   },
   "WoWPaladin:BlessingOfWisdom": {
     "NAME": "Blessing of Wisdom",
-    "DESCRIPTION": "Gain 3 Focus. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain 3 Focus."
+    "DESCRIPTION": "Gain !M! Focus. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Focus."
   },
   "WoWPaladin:BlessingOfKings": {
     "NAME": "Blessing of Kings",
@@ -185,15 +185,15 @@
   },
   "WoWPaladin:Vindicate": {
     "NAME": "Vindicate",
-    "DESCRIPTION": "Deal !D! damage. Exhaust. NL Valiance - Don't exhaust."
+    "DESCRIPTION": "Deal !D! damage. Exhaust. NL wowpaladin:Valiance - Don't exhaust."
   },
   "WoWPaladin:SeraphStrike": {
     "NAME": "Seraph Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Holy. NL Retain !M! cards."
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Holy. NL Gain Retain !M!."
   },
   "WoWPaladin:CrusaderStrike": {
     "NAME": "Crusader Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Valiance - Deal !B! damage instead."
+    "DESCRIPTION": "Deal !D! damage. NL wowpaladin:Valiance - Deal !B! damage instead."
   },
   "WoWPaladin:OathOfVigilance": {
     "NAME": "Oath of Vigilance",
@@ -213,7 +213,7 @@
   },
   "WoWPaladin:ArdentDefense": {
     "NAME": "Ardent Defense",
-    "DESCRIPTION": "Gain !B! block. NL Valiance - Gain !M! more block."
+    "DESCRIPTION": "Gain !B! block. NL wowpaladin:Valiance - Gain !M! more block."
   },
   "WoWPaladin:AvengersShield": {
     "NAME": "Avenger's Shield",
@@ -242,15 +242,15 @@
   },
   "WoWPaladin:CondemnHeresy": {
     "NAME": "Condemn Heresy",
-    "DESCRIPTION": "Deal !D! damage X times. NL Valiance - do this 2X times."
+    "DESCRIPTION": "Deal !D! damage X times. NL wowpaladin:Valiance - This deals twice as much damage."
   },
   "WoWPaladin:ValiantCharge": {
     "NAME": "Valiant Rush",
-    "DESCRIPTION": "Deal !D! damage. Valiance - Gain block equal to unblocked damage dealt."
+    "DESCRIPTION": "Deal !D! damage. wowpaladin:Valiance - Gain block equal to unblocked damage dealt."
   },
   "WoWPaladin:HammerOfWrath": {
     "NAME": "Hammer of Wrath",
-    "DESCRIPTION": "Gain !M! holy. NL Choose one: Add a Smite to your hand or Evoke your seal."
+    "DESCRIPTION": "Gain !M! holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal."
   },
   "WoWPaladin:SealEvoke": {
     "NAME": "Unleash Seal",
@@ -266,7 +266,7 @@
   },
   "WoWPaladin:HandOfReckoning": {
     "NAME": "Hand of Reckoning",
-    "DESCRIPTION": "Discard your hand. NL Deal !D! damage to all enemies for each card discarded."
+    "DESCRIPTION": "Discard your hand. NL Deal !D! damage to all enemies one time for each discarded card."
   },
   "WoWPaladin:JusticeDemandsRetribution": {
     "NAME": "Retribution!",
@@ -274,11 +274,11 @@
   },
   "WoWPaladin:RapturousCharge": {
     "NAME": "Rapturous Charge",
-    "DESCRIPTION": "Deal !D! damage to each enemy. NL Valiance - Apply !M! vulnerable to each enemy."
+    "DESCRIPTION": "Deal !D! damage to each enemy. NL wowpaladin:Valiance - Apply !M! vulnerable to each enemy."
   },
   "WoWPaladin:RighteousExpulsion": {
     "NAME": "Righteous Expulsion",
-    "DESCRIPTION": "Deal !D! damage. NL Valiance - Then deal !D! to each enemy."
+    "DESCRIPTION": "Deal !D! damage. NL wowpaladin:Valiance - Then deal !D! to each enemy."
   },
   "WoWPaladin:SacredCross": {
     "NAME": "Sacred Cross",
@@ -298,7 +298,7 @@
   },
   "WoWPaladin:Resolve": {
     "NAME": "Resolve",
-    "DESCRIPTION": "Gain !B! block. NL Valiance - Remove all of your debuffs."
+    "DESCRIPTION": "Gain !B! block. NL wowpaladin:Valiance - Remove all of your debuffs."
   },
   "WoWPaladin:LightsMeditation": {
     "NAME": "Light's Meditation",
@@ -348,6 +348,7 @@
   },
   "WoWPaladin:Purge": {
     "NAME": "Purge",
-    "DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP."
+    "DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP.",
+    "UPGRADE_DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP. NL Innate."
   }
 }

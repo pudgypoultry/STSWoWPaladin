@@ -37,15 +37,19 @@ public class BlessingOfWisdom extends CustomCard {
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 2;
+    private static final int UPGRADE_COST = 1;
+    private static final int MAGIC = 3;
+    private static final int UPGRADE_MAGIC = -2;
 
 
     public BlessingOfWisdom() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+        this.magicNumber = baseMagicNumber = MAGIC;
         this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(p,p, new FocusPower(p, 3), 3));
+        AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(p,p, new FocusPower(p, MAGIC), MAGIC));
     }
 
 
@@ -54,6 +58,8 @@ public class BlessingOfWisdom extends CustomCard {
             upgradeName();
             this.exhaust = false;
             this.rawDescription = UPGRADE_DESCRIPTION;
+            upgradeBaseCost(UPGRADE_COST);
+            upgradeMagicNumber(UPGRADE_MAGIC);
             initializeDescription();
         }
     }

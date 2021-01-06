@@ -54,6 +54,7 @@ public class RapturousCharge extends CustomCard {
     private static final int DAMAGE = 6;
     private static final int UPGRADE_DAMAGE = 4;
     private static final int MAGIC = 2;
+    private boolean isEliteOrBoss;
 
     // /STAT DECLARATION/
 
@@ -65,12 +66,38 @@ public class RapturousCharge extends CustomCard {
         this.isMultiDamage = true;
     }
 
+
+    public void atTurnStart() {
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+    public void triggerWhenCopied(){
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
         AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE, false));
 
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             Iterator var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
 
             while (var3.hasNext()) {
@@ -81,7 +108,7 @@ public class RapturousCharge extends CustomCard {
     }
 
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         } else {
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();

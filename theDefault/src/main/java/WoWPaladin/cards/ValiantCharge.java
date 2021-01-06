@@ -14,6 +14,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import java.util.Iterator;
+
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
 public class ValiantCharge extends CustomCard {
@@ -50,7 +52,7 @@ public class ValiantCharge extends CustomCard {
     private static final int UPGRADE_DAMAGE = 3;
     private static final int UPGRADE_BLOCK = 3;
     private static final int ACTIVATED_DAMAGE = 15;
-
+    private boolean isEliteOrBoss;
 
     // /STAT DECLARATION/
 
@@ -61,19 +63,44 @@ public class ValiantCharge extends CustomCard {
 
     }
 
+    public void atTurnStart() {
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+    public void triggerWhenCopied(){
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
 
 
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             AbstractDungeon.actionManager.addToBottom(new WallopAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
         }
 
     }
 
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         } else {
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();

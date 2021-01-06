@@ -71,6 +71,7 @@ public class Prayer extends CustomCard {
         if (!this.upgraded) {
             upgradeName();
             this.rawDescription = UPGRADE_DESCRIPTION;
+
             initializeDescription();
         }
     }
