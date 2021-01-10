@@ -49,9 +49,9 @@ public class CrusaderStrike extends CustomCard {
 
     private static final int COST = 1;
     private static final int DAMAGE = 8;
-    private static final int UPGRADE_DAMAGE = 3;
+    private static final int UPGRADE_DAMAGE = 2;
     private static final int UPGRADE_BLOCK = 3;
-    private static final int ACTIVATED_DAMAGE = 15;
+    private static final int MAGIC = 7;
     private boolean isEliteOrBoss;
 
     // /STAT DECLARATION/
@@ -59,8 +59,8 @@ public class CrusaderStrike extends CustomCard {
     public CrusaderStrike() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
-        baseDamage = DAMAGE;
-        baseBlock = ACTIVATED_DAMAGE;
+        this.damage = baseDamage = DAMAGE;
+        this.magicNumber = baseMagicNumber = MAGIC;
         this.tags.add(CardTags.STRIKE);
 
     }
@@ -92,7 +92,7 @@ public class CrusaderStrike extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
-            AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, block, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+            AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, damage + magicNumber, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         }
         else {
             AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
@@ -114,7 +114,7 @@ public class CrusaderStrike extends CustomCard {
         if (!upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_DAMAGE);
-            upgradeBlock(UPGRADE_BLOCK);
+            upgradeMagicNumber(UPGRADE_BLOCK);
             initializeDescription();
         }
     }

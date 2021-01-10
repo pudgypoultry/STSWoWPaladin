@@ -37,6 +37,7 @@ public class BlessingOfKings extends CustomCard {
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 2;
     private static final int MAGIC_NUMBER = 2;
+    private static final int UPGRADE_MAGIC = 1;
 
 
 
@@ -58,7 +59,7 @@ public class BlessingOfKings extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            upgradeMagicNumber(2);
+            upgradeMagicNumber(UPGRADE_MAGIC);
         }
     }
 }

@@ -49,13 +49,15 @@ public class Smite extends CustomCard {
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.ATTACK;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 1;
-    private static final int DAMAGE = 3;
-    private static final int UPGRADE_DAMAGE = 1;
+    private static final int DAMAGE = 0;
+    private static final int UPGRADE_MAGIC = 1;
+    private static final int MAGIC = 1;
 
 
     public Smite() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = damage = DAMAGE;
+        this.baseMagicNumber = magicNumber = MAGIC;
 
     }
 
@@ -65,7 +67,7 @@ public class Smite extends CustomCard {
 
         if(AbstractDungeon.player.hasPower(HolyPower.POWER_ID)) {
             AbstractDungeon.actionManager.addToBottom(
-                    new DamageAction(m, new DamageInfo(p, damage * AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount, damageTypeForTurn),
+                    new DamageAction(m, new DamageInfo(p, damage + (magicNumber * AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount), damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         }
     }
@@ -78,7 +80,7 @@ public class Smite extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeDamage(UPGRADE_DAMAGE);
+            this.upgradeMagicNumber(UPGRADE_MAGIC);
             initializeDescription();
         }
     }

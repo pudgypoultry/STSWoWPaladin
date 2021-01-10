@@ -17,6 +17,7 @@ WoWPaladin\powers\CommonPower.class
 WoWPaladin\cards\CrusaderStrike.class
 WoWPaladin\cards\Aegis.class
 WoWPaladin\variables\DefaultSecondMagicNumber.class
+WoWPaladin\cards\Zeal.class
 WoWPaladin\powers\CrusaderAuraPower.class
 WoWPaladin\powers\LoseRetainPower.class
 WoWPaladin\util\IDCheckDontTouchPls.class
@@ -50,7 +51,6 @@ WoWPaladin\cards\BlessingOfKings.class
 WoWPaladin\cards\Brace.class
 WoWPaladin\cards\LayOnHands.class
 WoWPaladin\cards\Resolve.class
-WoWPaladin\cards\WeaponizedZeal.class
 WoWPaladin\cards\JusticeDemandsRetribution.class
 WoWPaladin\cards\OathOfPiety.class
 WoWPaladin\patches\relics\BottledPlaceholderField$MakeStatEquivalentCopy.class
@@ -70,8 +70,10 @@ WoWPaladin\cards\RetributionAura.class
 WoWPaladin\powers\LoseFocusPower.class
 WoWPaladin\cards\DefendPaladin.class
 WoWPaladin\orbs\SealOfJustice.class
+WoWPaladin\cards\Thorns.class
 WoWPaladin\cards\SeraphStrike.class
 WoWPaladin\relics\BottledPlaceholderRelic.class
+WoWPaladin\cards\ZealousPersecution.class
 WoWPaladin\util\TextureLoader.class
 WoWPaladin\actions\JusticeDemandsRetributionAction.class
 WoWPaladin\patches\DefaultInsertPatch.class
@@ -91,6 +93,7 @@ WoWPaladin\cards\RighteousExpulsion.class
 WoWPaladin\powers\RetributionPower.class
 WoWPaladin\cards\EqualizingSwath.class
 WoWPaladin\cards\FistOfTheHeavens.class
+WoWPaladin\cards\ShieldUp.class
 WoWPaladin\relics\DefaultClickableRelic.class
 WoWPaladin\cards\Judgement.class
 WoWPaladin\cards\Vindicate.class

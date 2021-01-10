@@ -13,6 +13,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import java.util.Iterator;
+
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
 public class Vindicate extends CustomCard {
@@ -48,6 +50,7 @@ public class Vindicate extends CustomCard {
     private static final int COST = 1;
     private static final int DAMAGE = 14;
     private static final int UPGRADE_DAMAGE = 4;
+    private boolean isEliteOrBoss;
 
 
     // /STAT DECLARATION/
@@ -63,8 +66,32 @@ public class Vindicate extends CustomCard {
     @Override
     public void applyPowers() {
         //Apply valiance condition
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.exhaust = false;
+        }
+    }
+
+    public void atTurnStart() {
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
+        }
+    }
+
+    public void triggerWhenCopied(){
+        isEliteOrBoss = false;
+        Iterator var2 = AbstractDungeon.getMonsters().monsters.iterator();
+
+        while (var2.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var2.next();
+            if (m.type == AbstractMonster.EnemyType.BOSS) {
+                isEliteOrBoss = true;
+            }
         }
     }
 
@@ -74,7 +101,7 @@ public class Vindicate extends CustomCard {
     }
 
     public void triggerOnGlowCheck() {
-        if (AbstractDungeon.getCurrRoom().eliteTrigger) {
+        if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         } else {
             this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();

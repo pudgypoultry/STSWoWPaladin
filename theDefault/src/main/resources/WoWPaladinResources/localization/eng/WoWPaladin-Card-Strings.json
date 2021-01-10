@@ -144,7 +144,7 @@
   },
   "WoWPaladin:LayOnHands": {
     "NAME": "Lay On Hands",
-    "DESCRIPTION": "Draw until your hand is full. NL Shuffle your discard pile into your deck. NL Heal 10. NL Exhaust."
+    "DESCRIPTION": "Draw cards until your hand is full. NL Retain your hand this turn. NL Heal 10 HP. NL Exhaust."
   },
   "WoWPaladin:SentinelStance": {
     "NAME": "Sentinel Stance",
@@ -165,11 +165,11 @@
   },
   "WoWPaladin:FlashOfLight": {
     "NAME": "Flash of Light",
-    "DESCRIPTION": "Gain !M! Life. NL Draw !M! Cards. NL Exhaust."
+    "DESCRIPTION": "Heal !M! HP. NL Draw !M! Cards. NL Exhaust."
   },
   "WoWPaladin:CrusadersJudgement": {
     "NAME": "Crusader's Judgement",
-    "DESCRIPTION": "Draw !M! Card(s). NL Deal damage equal to the number of cards in your hand( !D! )"
+    "DESCRIPTION": "Draw !M! Card(s). NL Deal damage equal to the number of cards in your hand."
   },
   "WoWPaladin:BlessedBreastplate": {
     "NAME": "Blessed Breastplate",
@@ -193,7 +193,7 @@
   },
   "WoWPaladin:CrusaderStrike": {
     "NAME": "Crusader Strike",
-    "DESCRIPTION": "Deal !D! damage. NL wowpaladin:Valiance - Deal !B! damage instead."
+    "DESCRIPTION": "Deal !D! damage. NL wowpaladin:Valiance - Deal that much plus !M! damage instead."
   },
   "WoWPaladin:OathOfVigilance": {
     "NAME": "Oath of Vigilance",
@@ -236,8 +236,8 @@
     "NAME": "Fist of the Heavens",
     "DESCRIPTION": "Deal !D! damage. NL Increased by number of cards in hand."
   },
-  "WoWPaladin:WeaponizedZeal": {
-    "NAME": "Weaponized Zeal",
+  "WoWPaladin:Zeal": {
+    "NAME": "Zeal",
     "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, gain !M! energy."
   },
   "WoWPaladin:CondemnHeresy": {
@@ -258,11 +258,11 @@
   },
   "WoWPaladin:SmiteThem": {
     "NAME": "Smite Them Down!",
-    "DESCRIPTION": "Add a Smite to your hand. NL The next attack you play this turn costs 0."
+    "DESCRIPTION": "Add a Smite to your hand."
   },
   "WoWPaladin:Smite": {
     "NAME": "Smite",
-    "DESCRIPTION": "Deal damage equal to !D! times your holy."
+    "DESCRIPTION": "Deal damage equal to !M! times your holy NL (Strength added after)"
   },
   "WoWPaladin:HandOfReckoning": {
     "NAME": "Hand of Reckoning",
@@ -350,5 +350,17 @@
     "NAME": "Purge",
     "DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP.",
     "UPGRADE_DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP. NL Innate."
+  },
+  "WoWPaladin:ZealousPersecution": {
+    "NAME": "Zealous Persecution",
+    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength to target."
+  },
+  "WoWPaladin:Thorns": {
+    "NAME": "Spiked Armor",
+    "DESCRIPTION": "Whenever you are attacked, deal !M! damage back."
+  },
+  "WoWPaladin:ShieldUp": {
+    "NAME": "Shield Up!",
+    "DESCRIPTION": "Gain !B! block. NL If you have !M! or more holy, spend it and gain 5 thorns."
   }
 }
