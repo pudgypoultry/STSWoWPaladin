@@ -51,7 +51,7 @@ public class Smite extends CustomCard {
     private static final int COST = 1;
     private static final int DAMAGE = 0;
     private static final int UPGRADE_MAGIC = 1;
-    private static final int MAGIC = 1;
+    private static final int MAGIC = 3;
 
 
     public Smite() {
