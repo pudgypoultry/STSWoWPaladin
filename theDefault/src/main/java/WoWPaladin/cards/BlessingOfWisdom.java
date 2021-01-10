@@ -49,7 +49,13 @@ public class BlessingOfWisdom extends CustomCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(p,p, new FocusPower(p, MAGIC), MAGIC));
+        if(this.upgraded){
+            AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(p,p, new FocusPower(p, MAGIC+UPGRADE_MAGIC), MAGIC+UPGRADE_MAGIC));
+        }
+        else{
+            AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(p,p, new FocusPower(p, MAGIC), MAGIC));
+        }
+
     }
 
 
