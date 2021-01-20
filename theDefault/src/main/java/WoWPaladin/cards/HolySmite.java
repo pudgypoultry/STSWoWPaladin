@@ -55,9 +55,6 @@ public class HolySmite extends CustomCard {
 
         baseDamage = DAMAGE;
 
-        this.tags.add(CardTags.STARTER_STRIKE);
-        this.tags.add(CardTags.STRIKE);
-
         this.baseMagicNumber = 1;
         this.magicNumber = baseMagicNumber;
     }

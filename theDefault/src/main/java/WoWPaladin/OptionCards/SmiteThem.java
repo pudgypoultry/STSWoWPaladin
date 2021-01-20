@@ -63,7 +63,7 @@ public class SmiteThem extends CustomCard {
 
     public SmiteThem() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.cardsToPreview = new Smite();
+        this.cardsToPreview = new com.megacrit.cardcrawl.cards.tempCards.Smite();
     }
 
     @Override
@@ -76,7 +76,7 @@ public class SmiteThem extends CustomCard {
     @Override
     public void onChoseThisOption(){
 
-        AbstractDungeon.player.hand.addToHand(new Smite());
+        AbstractDungeon.player.hand.addToHand(new com.megacrit.cardcrawl.cards.tempCards.Smite());
     }
 
     public AbstractCard makeCopy() {

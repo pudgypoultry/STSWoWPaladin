@@ -29,7 +29,7 @@ public class AvengersShield extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = WoWPaladin.makeID("AvengersShield");
-    public static final String IMG = makeCardPath("Attack.png");
+    public static final String IMG = makeCardPath("AvengersShield.png");
 
     // /TEXT DECLARATION/
 

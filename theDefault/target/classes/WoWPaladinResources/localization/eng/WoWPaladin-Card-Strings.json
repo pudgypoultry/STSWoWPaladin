@@ -99,17 +99,17 @@
   },
   "WoWPaladin:RighteousDuty": {
     "NAME": "Righteous Duty",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Righteousness. Exhaust.",
+    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness."
   },
   "WoWPaladin:FaithInTheLight": {
     "NAME": "Faith In The Light",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Light. Exhaust.",
+    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Light. Exhaust.",
     "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Light."
   },
   "WoWPaladin:JusticeForAll": {
     "NAME": "Justice For All",
-    "DESCRIPTION": "Remove your seal. Channel a wowpaladin:Seal_of_Justice. Exhaust.",
+    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice. Exhaust.",
     "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice."
   },
   "WoWPaladin:WakeOfAshes": {
@@ -144,7 +144,7 @@
   },
   "WoWPaladin:LayOnHands": {
     "NAME": "Lay On Hands",
-    "DESCRIPTION": "Draw cards until your hand is full. NL Retain your hand this turn. NL Heal 10 HP. NL Exhaust."
+    "DESCRIPTION": "Draw cards until your hand is full. NL Retain your hand this turn. NL Heal !M! HP. NL Exhaust."
   },
   "WoWPaladin:SentinelStance": {
     "NAME": "Sentinel Stance",
@@ -209,7 +209,7 @@
   },
   "WoWPaladin:Aegis": {
     "NAME": "Aegis",
-    "DESCRIPTION": "The next !M! times you would take damage, prevent it. NL Gain !M! artifact."
+    "DESCRIPTION": "The next !M! time(s) you would take damage, prevent it. NL Gain !M! artifact."
   },
   "WoWPaladin:ArdentDefense": {
     "NAME": "Ardent Defense",
@@ -237,7 +237,7 @@
     "DESCRIPTION": "Deal !D! damage. NL Increased by number of cards in hand."
   },
   "WoWPaladin:Zeal": {
-    "NAME": "Zeal",
+    "NAME": "Zealotry",
     "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, gain !M! energy."
   },
   "WoWPaladin:CondemnHeresy": {
@@ -250,7 +250,7 @@
   },
   "WoWPaladin:HammerOfWrath": {
     "NAME": "Hammer of Wrath",
-    "DESCRIPTION": "Gain !M! holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal."
+    "DESCRIPTION": "Gain !M! holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal. NL Exhaust."
   },
   "WoWPaladin:SealEvoke": {
     "NAME": "Unleash Seal",

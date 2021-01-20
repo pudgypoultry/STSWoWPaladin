@@ -37,7 +37,7 @@ public class HammerOfWrath extends CustomCard {
 
     public static final String ID = WoWPaladin.makeID("HammerOfWrath");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-    public static final String IMG = makeCardPath("Judgement.png");
+    public static final String IMG = makeCardPath("HammerOfWrath.png");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
@@ -56,6 +56,7 @@ public class HammerOfWrath extends CustomCard {
     public HammerOfWrath() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseMagicNumber = magicNumber = MAGIC;
+        this.exhaust = true;
     }
 
     @Override

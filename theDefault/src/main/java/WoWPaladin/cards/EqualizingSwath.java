@@ -58,10 +58,16 @@ public class EqualizingSwath extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
+        float monsterNumber = 0;
         Iterator var3 = AbstractDungeon.getMonsters().monsters.iterator();
-        float monsterNumber = AbstractDungeon.getMonsters().monsters.size();
-        float initialDamage = damage;
-        int equalizedDamage = Math.round(initialDamage/monsterNumber);
+        while(var3.hasNext()) {
+            AbstractMonster monster = (AbstractMonster)var3.next();
+            if (!monster.isDead && !monster.isDying) {
+                monsterNumber++;
+            }
+        }
+        //float initialDamage = damage;
+        int equalizedDamage = Math.round(damage/monsterNumber);
 
         AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, equalizedDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
 

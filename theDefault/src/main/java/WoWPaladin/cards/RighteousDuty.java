@@ -19,10 +19,10 @@ import static WoWPaladin.WoWPaladin.makeCardPath;
 public class RighteousDuty extends CustomCard {
 
     /*
-     * Righteous Duty - 1
+     * Righteous Duty - 0
      * Uncommon Skill
-     * Remove your seal. Channel 1 Seal of Righteousness. Exhaust.
-     * (Upgrade: Do not remove your seal).
+     * Channel 1 Seal of Righteousness. Exhaust.
+     * (Upgrade: Don't exhaust).
      */
 
     // TEXT DECLARATION
@@ -46,19 +46,21 @@ public class RighteousDuty extends CustomCard {
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
-    private static final int COST = 1;
+    private static final int COST = 0;
+
 
     // /STAT DECLARATION/
 
     public RighteousDuty() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+        this.exhaust = true;
     }
 
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if(!this.upgraded){
-            AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
+            //AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
             // Remove all orbs without evoking
         }
 
@@ -73,6 +75,7 @@ public class RighteousDuty extends CustomCard {
         if (!this.upgraded) {
             this.upgradeName();
             this.rawDescription = UPGRADE_DESCRIPTION;
+            this.exhaust = false;
             initializeDescription();
         }
     }

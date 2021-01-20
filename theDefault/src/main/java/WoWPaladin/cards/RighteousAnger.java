@@ -55,7 +55,7 @@ public class RighteousAnger extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom( new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn)));
-        AbstractDungeon.actionManager.addToBottom( new MakeTempCardInDiscardAction(new RighteousAnger(), 1));
+        AbstractDungeon.actionManager.addToBottom( new MakeTempCardInDiscardAction(this.makeStatEquivalentCopy(), 1));
     }
 
     @Override

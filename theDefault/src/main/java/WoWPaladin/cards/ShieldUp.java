@@ -34,7 +34,7 @@ public class ShieldUp extends CustomCard {
     public static final String ID = WoWPaladin.makeID("ShieldUp");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("TemplarsVerdict.png");
+    public static final String IMG = makeCardPath("ShieldUp.png");
 
 
     public static final String NAME = cardStrings.NAME;
@@ -45,7 +45,7 @@ public class ShieldUp extends CustomCard {
 
     // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;

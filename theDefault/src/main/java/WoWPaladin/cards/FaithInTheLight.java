@@ -58,7 +58,7 @@ public class FaithInTheLight extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if(!this.upgraded){
-            AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
+            //AbstractDungeon.actionManager.addToTop(new RemoveAllOrbsAction());
             // Remove all orbs without evoking
         }
 

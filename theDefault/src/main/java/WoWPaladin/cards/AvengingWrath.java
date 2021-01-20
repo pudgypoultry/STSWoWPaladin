@@ -31,7 +31,7 @@ public class AvengingWrath extends CustomCard {
     public static final String ID = WoWPaladin.makeID("AvengingWrath");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("DefendPaladin.png");
+    public static final String IMG = makeCardPath("AvengingWrath.png");
 
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -42,7 +42,7 @@ public class AvengingWrath extends CustomCard {
 
     // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
