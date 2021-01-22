@@ -225,7 +225,7 @@
     "UPGRADE_DESCRIPTION": "Until end of turn, gain +4 Strength, Dexterity, and Focus."
   },
   "WoWPaladin:EqualizingSwath": {
-    "NAME": "Equalizing Swath",
+    "NAME": "Equality",
     "DESCRIPTION": "Deal !D! damage divided equally among all enemies. NL Gain !M! Holy. "
   },
   "WoWPaladin:GuidingStrike": {

@@ -25,7 +25,7 @@ public class GuidingStrike extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = WoWPaladin.makeID("GuidingStrike");
-    public static final String IMG = makeCardPath("Attack.png");
+    public static final String IMG = makeCardPath("GuidingStrike.png");
 
     // /TEXT DECLARATION/
 
@@ -39,7 +39,7 @@ public class GuidingStrike extends AbstractDynamicCard {
 
     private static final int COST = 1;
     private static final int DAMAGE = 10;
-    private static final int MAGIC = 3;
+    private static final int MAGIC = 2;
     private static final int UPGRADE_MAGIC = -1;
 
     public int specialDamage;

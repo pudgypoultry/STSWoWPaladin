@@ -24,7 +24,7 @@ public class EqualizingSwath extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = WoWPaladin.makeID("EqualizingSwath");
-    public static final String IMG = makeCardPath("Attack.png");
+    public static final String IMG = makeCardPath("EqualizingSwath.png");
 
     // /TEXT DECLARATION/
 

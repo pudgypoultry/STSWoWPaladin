@@ -45,7 +45,7 @@
       "sealoflight",
       "Seal_of_Justice"
     ],
-    "DESCRIPTION": "Passive: Gain 1 regeneration at the beginning of turn. NL Evoke: Spend all holy. Heal 5 hp per holy spent."
+    "DESCRIPTION": "Passive: Heal 1 HP at the beginning of turn. NL Evoke: Spend all holy. Heal 5 hp per holy spent."
   },
   {
     "NAMES": [

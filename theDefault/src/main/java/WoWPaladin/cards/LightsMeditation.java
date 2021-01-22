@@ -29,7 +29,7 @@ public class LightsMeditation extends CustomCard {
     public static final String ID = WoWPaladin.makeID("LightsMeditation");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("DefendPaladin.png");
+    public static final String IMG = makeCardPath("LightsMeditation.png");
 
 
     public static final String NAME = cardStrings.NAME;
