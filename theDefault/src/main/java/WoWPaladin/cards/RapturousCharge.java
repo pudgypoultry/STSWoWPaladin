@@ -34,7 +34,7 @@ public class RapturousCharge extends CustomCard {
     public static final String ID = WoWPaladin.makeID("RapturousCharge");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("SentinelStance.png");
+    public static final String IMG = makeCardPath("RapturousCharge.png");
 
 
     public static final String NAME = cardStrings.NAME;

@@ -29,7 +29,7 @@ public class OathOfVigilance extends CustomCard {
     public static final String ID = WoWPaladin.makeID("OathOfVigilance");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("DefendPaladin.png");
+    public static final String IMG = makeCardPath("OathOfVigilance.png");
 
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;

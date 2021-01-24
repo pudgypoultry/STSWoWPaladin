@@ -31,7 +31,7 @@ public class HandOfReckoning extends CustomCard {
     public static final String ID = WoWPaladin.makeID("HandOfReckoning");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("SentinelStance.png");
+    public static final String IMG = makeCardPath("HandOfReckoning.png");
 
 
     public static final String NAME = cardStrings.NAME;

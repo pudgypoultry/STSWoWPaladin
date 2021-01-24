@@ -2,28 +2,14 @@ package WoWPaladin.OptionCards;
 
 
 import WoWPaladin.WoWPaladin;
-import WoWPaladin.cards.DivineStorm;
 import WoWPaladin.characters.ThePaladin;
-import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-import com.megacrit.cardcrawl.actions.defect.EvokeOrbAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.optionCards.ChooseWrath;
-import com.megacrit.cardcrawl.cards.red.Whirlwind;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.watcher.FreeAttackPower;
-import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
-import WoWPaladin.cards.Smite;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 

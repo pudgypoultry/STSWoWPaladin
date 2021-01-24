@@ -27,7 +27,7 @@ public class Thorns extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = WoWPaladin.makeID("Thorns");
-    public static final String IMG = makeCardPath("Power.png");
+    public static final String IMG = makeCardPath("Thorns.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 

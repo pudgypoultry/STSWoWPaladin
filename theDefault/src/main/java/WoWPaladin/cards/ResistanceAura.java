@@ -28,7 +28,7 @@ public class ResistanceAura extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = WoWPaladin.makeID("ResistanceAura");
-    public static final String IMG = makeCardPath("Power.png");
+    public static final String IMG = makeCardPath("ResistanceAura.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 

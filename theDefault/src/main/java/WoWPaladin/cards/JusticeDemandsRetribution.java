@@ -30,7 +30,7 @@ public class JusticeDemandsRetribution extends CustomCard {
     public static final String ID = WoWPaladin.makeID("JusticeDemandsRetribution");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("StrikePaladin.png");
+    public static final String IMG = makeCardPath("JusticeDemandsRetribution.png");
 
 
     public static final String NAME = cardStrings.NAME;

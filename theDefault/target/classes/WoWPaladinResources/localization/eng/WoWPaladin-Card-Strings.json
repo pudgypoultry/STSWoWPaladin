@@ -122,7 +122,7 @@
   },
   "WoWPaladin:TemplarsVerdict": {
     "NAME": "Templar's Verdict",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! or more Holy, spend it and deal that much plus 15 instead."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! Holy, spend it and deal that much plus 15 instead."
   },
   "WoWPaladin:Prayer": {
     "NAME": "Prayer",
@@ -281,7 +281,7 @@
     "DESCRIPTION": "Deal !D! damage. NL wowpaladin:Valiance - Then deal !D! to each enemy."
   },
   "WoWPaladin:SacredCross": {
-    "NAME": "Sacred Cross",
+    "NAME": "Holy Shock",
     "DESCRIPTION": "Deal !D! damage two times. NL Increased by your holy."
   },
   "WoWPaladin:ZealotsThrust": {
@@ -343,8 +343,8 @@
   },
   "WoWPaladin:Repentance": {
     "NAME": "Repentance",
-    "DESCRIPTION": "Evoke your seal. NL Draw a card. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Evoke your seal. NL Draw a card."
+    "DESCRIPTION": "Evoke your seal. NL Draw !M! cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Evoke your seal. NL Draw !M! cards."
   },
   "WoWPaladin:Purge": {
     "NAME": "Purge",
@@ -356,11 +356,11 @@
     "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength to target."
   },
   "WoWPaladin:Thorns": {
-    "NAME": "Spiked Armor",
+    "NAME": "Shield Spikes",
     "DESCRIPTION": "Whenever you are attacked, deal !M! damage back."
   },
   "WoWPaladin:ShieldUp": {
     "NAME": "Shield Up!",
-    "DESCRIPTION": "Gain !B! block. NL If you have !M! or more holy, spend it and gain 5 thorns."
+    "DESCRIPTION": "Gain !B! block. NL If you have !M! holy, spend it and gain 5 thorns."
   }
 }

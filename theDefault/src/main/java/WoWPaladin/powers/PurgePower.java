@@ -24,6 +24,9 @@ public class PurgePower extends AbstractPower {
     public static final String NAME;
     public static final String[] DESCRIPTIONS;
 
+    private static final Texture tex84 = TextureLoader.getTexture(makePowerPath("PurgePower84.png"));
+    private static final Texture tex32 = TextureLoader.getTexture(makePowerPath("PurgePower32.png"));
+
     public PurgePower(AbstractCreature owner, int newAmount) {
         this.name = NAME;
         this.ID = POWER_ID;
@@ -31,7 +34,10 @@ public class PurgePower extends AbstractPower {
         this.amount = newAmount;
         this.type = PowerType.DEBUFF;
         this.updateDescription();
-        this.loadRegion("flameBarrier");
+        //this.loadRegion("flameBarrier");
+
+        this.region128 = new TextureAtlas.AtlasRegion(tex84, 0, 0, 84, 84);
+        this.region48 = new TextureAtlas.AtlasRegion(tex32, 0, 0, 32, 32);
     }
 
     public void updateDescription() {

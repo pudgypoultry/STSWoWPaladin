@@ -33,7 +33,7 @@ public class SealOfJustice extends AbstractOrb {
     private static final OrbStrings orbString = CardCrawlGame.languagePack.getOrbString(ORB_ID);
     public static final String[] DESC = orbString.DESCRIPTION;
 
-    private static final Texture IMG = TextureLoader.getTexture(makeOrbPath("Paladin_orb.png"));
+    private static final Texture IMG = TextureLoader.getTexture(makeOrbPath("SealOfJustice.png"));
     // Animation Rendering Numbers - You can leave these at default, or play around with them and see what they change.
     private float vfxTimer = 1.0f;
     private float vfxIntervalMin = 0.1f;
@@ -59,7 +59,7 @@ public class SealOfJustice extends AbstractOrb {
 
         updateDescription();
 
-        angle = MathUtils.random(360.0f); // More Animation-related Numbers
+        angle = MathUtils.random(0.0f); // More Animation-related Numbers
         channelAnimTimer = 0.5f;
     }
 
@@ -113,7 +113,7 @@ public class SealOfJustice extends AbstractOrb {
     public void updateAnimation() {// You can totally leave this as is.
         // If you want to create a whole new orb effect - take a look at conspire's Water Orb. It includes a custom sound, too!
         super.updateAnimation();
-        angle += Gdx.graphics.getDeltaTime() * 45.0f;
+        //angle += Gdx.graphics.getDeltaTime() * 45.0f;
         vfxTimer -= Gdx.graphics.getDeltaTime();
         if (vfxTimer < 0.0f) {
             AbstractDungeon.effectList.add(new DarkOrbPassiveEffect(cX, cY)); // This is the purple-sparkles in the orb. You can change this to whatever fits your orb.

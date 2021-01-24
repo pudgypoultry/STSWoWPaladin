@@ -38,7 +38,6 @@ WoWPaladin\cards\CondemnHeresy.class
 WoWPaladin\cards\Rebuke.class
 WoWPaladin\actions\TemplarsVerdictAction.class
 WoWPaladin\cards\AbstractDefaultCard.class
-WoWPaladin\cards\Smite.class
 WoWPaladin\cards\RighteousDuty.class
 WoWPaladin\cards\ResistanceAura.class
 WoWPaladin\powers\HolyPower.class

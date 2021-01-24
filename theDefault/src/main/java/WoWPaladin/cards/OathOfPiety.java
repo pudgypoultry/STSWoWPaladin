@@ -35,7 +35,7 @@ public class OathOfPiety extends CustomCard {
     public static final String ID = WoWPaladin.makeID("OathOfPiety");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("DefendPaladin.png");
+    public static final String IMG = makeCardPath("OathOfPiety.png");
 
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -82,7 +82,7 @@ public class OathOfPiety extends CustomCard {
         if (!upgraded) {
             upgradeName();
             upgradeBlock(UPGRADE_BLOCK);
-            upgradeMagicNumber(UPGRADE_MAGIC_NUMBER);
+            //upgradeMagicNumber(UPGRADE_MAGIC_NUMBER);
             initializeDescription();
         }
     }
