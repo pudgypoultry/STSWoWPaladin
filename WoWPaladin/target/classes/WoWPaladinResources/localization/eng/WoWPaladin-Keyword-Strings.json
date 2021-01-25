@@ -1,0 +1,57 @@
+[
+  {
+    "NAMES": [
+      "keyword",
+      "keywords"
+    ],
+    "DESCRIPTION": "Whenever you play a card, gain 1 dexterity this turn only."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords",
+      "multikey",
+      "multikeyword"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest is to match keywords like the single word keyword."
+  },
+  {
+    "PROPER_NAME": "Seal of Righteousness",
+    "NAMES": [
+      "Seal of Righteousness",
+      "seal_of_righteousness",
+      "sealofrighteousness",
+      "Seal_of_Righteousness"
+    ],
+    "DESCRIPTION": "Passive: Gain 2 block at the beginning of turn. NL Evoke: Spend all holy. Gain 10 block per holy spent."
+  },
+  {
+    "PROPER_NAME": "Seal of Justice",
+    "NAMES": [
+      "Seal of Justice",
+      "seal_of_justice",
+      "sealofjustice",
+      "Seal_of_Justice"
+    ],
+    "DESCRIPTION": "Passive: Gain 1 thorns at the beginning of turn. NL Evoke: Spend all holy. Deal 7 damage to each enemy per holy spent."
+  },
+  {
+    "PROPER_NAME": "Seal of Light",
+    "NAMES": [
+      "Seal of Light",
+      "seal_of_light",
+      "sealoflight",
+      "Seal_of_Justice"
+    ],
+    "DESCRIPTION": "Passive: Heal 1 HP at the beginning of turn. NL Evoke: Spend all holy. Heal 5 hp per holy spent."
+  },
+  {
+    "NAMES": [
+      "valiance",
+      "Valiance"
+    ],
+    "DESCRIPTION": "Valiance effects are active in elite and boss rooms only."
+  }
+]
