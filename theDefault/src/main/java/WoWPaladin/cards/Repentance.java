@@ -48,6 +48,7 @@ public class Repentance extends CustomCard {
 
     public Repentance() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+        this.magicNumber = baseMagicNumber = MAGIC;
         this.exhaust = true;
     }
 

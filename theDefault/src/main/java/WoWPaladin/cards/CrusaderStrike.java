@@ -50,7 +50,7 @@ public class CrusaderStrike extends CustomCard {
     private static final int COST = 1;
     private static final int DAMAGE = 8;
     private static final int UPGRADE_DAMAGE = 2;
-    private static final int UPGRADE_BLOCK = 3;
+    private static final int UPGRADE_BLOCK = 5;
     private static final int MAGIC = 7;
     private boolean isEliteOrBoss;
 
@@ -113,7 +113,7 @@ public class CrusaderStrike extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeDamage(UPGRADE_DAMAGE);
+            //upgradeDamage(UPGRADE_DAMAGE);
             upgradeMagicNumber(UPGRADE_BLOCK);
             initializeDescription();
         }

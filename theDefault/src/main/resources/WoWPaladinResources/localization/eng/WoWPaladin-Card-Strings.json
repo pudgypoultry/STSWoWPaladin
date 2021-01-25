@@ -273,7 +273,7 @@
     "DESCRIPTION": "Deal !D! damage. NL If this is fatal, gain !M! plated armor."
   },
   "WoWPaladin:RapturousCharge": {
-    "NAME": "Rapturous Charge",
+    "NAME": "Charge!!!",
     "DESCRIPTION": "Deal !D! damage to each enemy. NL wowpaladin:Valiance - Apply !M! vulnerable to each enemy."
   },
   "WoWPaladin:RighteousExpulsion": {

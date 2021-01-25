@@ -31,7 +31,6 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\variables\DefaultSecondMagicNumber.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\EqualizingSwath.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\characters\ThePaladin.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\potions\PlaceholderPotion.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\OathOfChains.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\GuidingStrike.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\util\IDCheckDontTouchPls.java
@@ -43,7 +42,6 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\RighteousDuty.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\StrikePaladin.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Judgement.java
-D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\orbs\DefaultOrb.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Consecration.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\HammerOfWrath.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\events\IdentityCrisisEvent.java
@@ -84,6 +82,7 @@ D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\LoseFocusPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\actions\UncommonPowerAction.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\Zeal.java
+D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\potions\BottledLight.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\cards\FaithInTheLight.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\powers\CrusaderAuraPower.java
 D:\STSModding2020\StS-DefaultModBase-master\StS-DefaultModBase-master\theDefault\src\main\java\WoWPaladin\relics\DefaultClickableRelic.java

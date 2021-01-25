@@ -49,7 +49,7 @@ public class SentinelStance extends CustomCard {
     private static final int COST = 1;
     private static final int BLOCK = 7;
     private static final int MAGIC = 2;
-    private static final int UPGRADE_MAGIC_NUMBER = 3;
+    private static final int UPGRADE_MAGIC_NUMBER = 1;
     private boolean isEliteOrBoss;
 
 

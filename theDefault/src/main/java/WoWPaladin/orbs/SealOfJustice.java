@@ -55,7 +55,7 @@ public class SealOfJustice extends AbstractOrb {
         }
         else holyAmount = 1;
 
-        evokeAmount = baseEvokeAmount = holyAmount * 7;
+        evokeAmount = baseEvokeAmount = holyAmount * 10;
 
         updateDescription();
 

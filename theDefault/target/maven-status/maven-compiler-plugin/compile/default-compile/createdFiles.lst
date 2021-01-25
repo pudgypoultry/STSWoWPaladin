@@ -1,6 +1,7 @@
 WoWPaladin\actions\UncommonPowerAction.class
 WoWPaladin\cards\AvengingWrath.class
 WoWPaladin\relics\PlaceholderRelic.class
+WoWPaladin\potions\BottledLight.class
 WoWPaladin\cards\Consecration.class
 WoWPaladin\variables\DefaultCustomVariable.class
 WoWPaladin\cards\HammerOfWrath.class
@@ -41,8 +42,6 @@ WoWPaladin\cards\AbstractDefaultCard.class
 WoWPaladin\cards\RighteousDuty.class
 WoWPaladin\cards\ResistanceAura.class
 WoWPaladin\powers\HolyPower.class
-WoWPaladin\potions\PlaceholderPotion.class
-WoWPaladin\orbs\DefaultOrb.class
 WoWPaladin\patches\DefaultInsertPatch$Locator.class
 WoWPaladin\cards\Purge.class
 WoWPaladin\cards\BlindingLight.class

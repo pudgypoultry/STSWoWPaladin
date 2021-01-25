@@ -2,7 +2,6 @@ package WoWPaladin;
 
 import WoWPaladin.relics.*;
 import basemod.*;
-import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
@@ -13,7 +12,6 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
@@ -22,8 +20,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import WoWPaladin.cards.*;
 import WoWPaladin.characters.ThePaladin;
-import WoWPaladin.events.IdentityCrisisEvent;
-import WoWPaladin.potions.PlaceholderPotion;
+import WoWPaladin.potions.BottledLight;
 import WoWPaladin.util.IDCheckDontTouchPls;
 import WoWPaladin.util.TextureLoader;
 import WoWPaladin.variables.DefaultCustomVariable;
@@ -354,7 +351,7 @@ public class WoWPaladin implements
         // Class Specific Potion. If you want your potion to not be class-specific,
         // just remove the player class at the end (in this case the "TheDefaultEnum.THE_DEFAULT".
         // Remember, you can press ctrl+P inside parentheses like addPotions)
-        BaseMod.addPotion(PlaceholderPotion.class, PLACEHOLDER_POTION_LIQUID, PLACEHOLDER_POTION_HYBRID, PLACEHOLDER_POTION_SPOTS, PlaceholderPotion.POTION_ID, ThePaladin.Enums.THE_PALADIN);
+        BaseMod.addPotion(BottledLight.class, PLACEHOLDER_POTION_LIQUID, PLACEHOLDER_POTION_HYBRID, PLACEHOLDER_POTION_SPOTS, BottledLight.POTION_ID, ThePaladin.Enums.THE_PALADIN);
         
         logger.info("Done editing potions");
     }
