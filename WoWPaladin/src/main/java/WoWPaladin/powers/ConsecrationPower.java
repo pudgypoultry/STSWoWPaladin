@@ -30,7 +30,7 @@ public class ConsecrationPower extends AbstractPower {
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = newAmount;
-        this.type = PowerType.DEBUFF;
+        this.type = PowerType.BUFF;
         this.updateDescription();
         this.loadRegion("flameBarrier");
     }

@@ -40,8 +40,9 @@ public class Consecration extends AbstractDynamicCard {
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
     private static final int COST = 2;
-    private static final int MAGIC = 1;
-    private static final int UPGRADE_MAGIC = 1;
+    private static final int UPGRADE_COST = 1;
+    private static final int MAGIC = 2;
+
     // /STAT DECLARATION/
 
     public Consecration() {
@@ -62,7 +63,7 @@ public class Consecration extends AbstractDynamicCard {
         if (!upgraded) {
             upgradeName();
             initializeDescription();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            upgradeBaseCost(UPGRADE_COST);
         }
     }
 }

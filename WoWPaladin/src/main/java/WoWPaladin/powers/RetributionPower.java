@@ -36,6 +36,7 @@ public class RetributionPower extends AbstractPower implements OnReceivePowerPow
         this.amount = amount;
         this.priority = 0;
         this.canGoNegative = false;
+        this.type = PowerType.BUFF;
         updateDescription();
 
         // We load those textures here.

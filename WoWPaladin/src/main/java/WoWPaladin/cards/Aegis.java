@@ -53,7 +53,7 @@ public class Aegis extends AbstractDynamicCard {
     public Aegis() {
 
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
-        baseMagicNumber = MAGIC_NUMBER;
+        this.magicNumber = baseMagicNumber = MAGIC_NUMBER;
     }
 
     // Actions the card should do.

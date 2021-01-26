@@ -308,12 +308,12 @@
   "WoWPaladin:Brace": {
     "NAME": "Brace",
     "DESCRIPTION": "When you take damage, gain 3 block.",
-    "UPGRADE_DESCRIPTION": "When you take damage, gain 3 block. NL Innate."
+    "UPGRADE_DESCRIPTION": "Innate. NL When you take damage, gain 3 block."
   },
   "WoWPaladin:EstablishmentPaladin": {
     "NAME": "Establishment",
     "DESCRIPTION": "Whenever a card is Retained, lower its cost by 1.",
-    "UPGRADE_DESCRIPTION": "Whenever a card is Retained, lower its cost by 1. NL Innate."
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever a card is Retained, lower its cost by 1."
   },
   "WoWPaladin:RetributionAura": {
     "NAME": "Retribution Aura",
@@ -335,7 +335,7 @@
   "WoWPaladin:CrusaderAura": {
     "NAME": "Crusader Aura",
     "DESCRIPTION": "At the beginning of each round, retain cards equal to your holy.",
-    "UPGRADE_DESCRIPTION": "At the beginning of each round, retain cards equal to your holy. NL Innate."
+    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, retain cards equal to your holy."
   },
   "WoWPaladin:Consecration": {
     "NAME": "Consecration",
@@ -349,7 +349,7 @@
   "WoWPaladin:Purge": {
     "NAME": "Purge",
     "DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP.",
-    "UPGRADE_DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP. NL Innate."
+    "UPGRADE_DESCRIPTION": "Innate. NL When you draw a curse, exhaust it and heal !M! HP."
   },
   "WoWPaladin:ZealousPersecution": {
     "NAME": "Zealous Persecution",
