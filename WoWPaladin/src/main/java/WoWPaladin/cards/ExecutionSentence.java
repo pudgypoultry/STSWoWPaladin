@@ -52,7 +52,7 @@ public class ExecutionSentence extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new TheBombPower(p, 2, this.magicNumber), 3));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new TheBombPower(p, 2, this.magicNumber), 2));
     }
 
     @Override

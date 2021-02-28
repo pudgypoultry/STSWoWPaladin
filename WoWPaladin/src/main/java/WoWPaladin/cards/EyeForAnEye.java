@@ -35,7 +35,7 @@ public class EyeForAnEye extends CustomCard {
 
     //Stat value variable declarations
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
-    private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.ALL_ENEMY;
+    private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.NONE;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 1;

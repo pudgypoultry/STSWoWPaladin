@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ExecutionSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WoWPaladin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WoWPaladin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ExecutionSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ExecutionSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeForAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeForAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RighteousDuty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RighteousDuty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" afterDir="false" />
