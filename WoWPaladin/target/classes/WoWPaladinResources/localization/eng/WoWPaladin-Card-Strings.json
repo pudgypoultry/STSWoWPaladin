@@ -99,8 +99,8 @@
   },
   "WoWPaladin:RighteousDuty": {
     "NAME": "Righteous Duty",
-    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness."
+    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness. NL Retain your hand this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Righteousness. NL Retain your hand this turn."
   },
   "WoWPaladin:FaithInTheLight": {
     "NAME": "Faith In The Light",
@@ -109,8 +109,8 @@
   },
   "WoWPaladin:JusticeForAll": {
     "NAME": "Justice For All",
-    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice."
+    "DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice. NL Whenever you are attacked this turn, deal !M! damage back. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel a wowpaladin:Seal_of_Justice. NL Whenever you are attacked this turn, deal !M! damage back."
   },
   "WoWPaladin:WakeOfAshes": {
     "NAME": "Wake of Ashes",
@@ -161,7 +161,7 @@
   },
   "WoWPaladin:BlessingOfKings": {
     "NAME": "Blessing of Kings",
-    "DESCRIPTION": "Gain !M! Strength and Dexterity. NL Exhaust."
+    "DESCRIPTION": "Gain !M! Strength and Dexterity."
   },
   "WoWPaladin:FlashOfLight": {
     "NAME": "Flash of Light",
@@ -189,7 +189,7 @@
   },
   "WoWPaladin:SeraphStrike": {
     "NAME": "Seraph Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Holy. NL Gain Retain !M!."
+    "DESCRIPTION": "Deal !D! damage. NL Retain your hand this turn."
   },
   "WoWPaladin:CrusaderStrike": {
     "NAME": "Crusader Strike",
@@ -236,7 +236,7 @@
     "NAME": "Fist of the Heavens",
     "DESCRIPTION": "Deal !D! damage. NL Increased by number of cards in hand."
   },
-  "WoWPaladin:Zeal": {
+  "WoWPaladin:WeaponizedZeal": {
     "NAME": "Zealotry",
     "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, gain !M! energy."
   },
@@ -362,5 +362,17 @@
   "WoWPaladin:ShieldUp": {
     "NAME": "Shield Up!",
     "DESCRIPTION": "Gain !B! block. NL If you have !M! holy, spend it and gain 5 thorns."
+  },
+  "WoWPaladin:BladeOfWrath": {
+    "NAME": "Blade of Wrath",
+    "DESCRIPTION": "Deal !D! damage. NL When you are attacked this turn, deal !M! damage back."
+  },
+  "WoWPaladin:EyeForAnEye": {
+    "NAME": "Eye For An Eye",
+    "DESCRIPTION": "When you are attacked this turn, deal !M! damage back. NL Gain 2 holy."
+  },
+  "WoWPaladin:ExecutionSentence": {
+    "NAME": "Execution Sentence",
+    "DESCRIPTION": "At the end of 2 turns, deal !M! to each enemy."
   }
 }

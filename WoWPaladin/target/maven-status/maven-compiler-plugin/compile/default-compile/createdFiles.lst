@@ -1,5 +1,6 @@
 WoWPaladin\actions\UncommonPowerAction.class
 WoWPaladin\cards\AvengingWrath.class
+WoWPaladin\cards\ExecutionSentence.class
 WoWPaladin\relics\PlaceholderRelic.class
 WoWPaladin\potions\BottledLight.class
 WoWPaladin\cards\Consecration.class
@@ -42,6 +43,8 @@ WoWPaladin\cards\AbstractDefaultCard.class
 WoWPaladin\cards\RighteousDuty.class
 WoWPaladin\cards\ResistanceAura.class
 WoWPaladin\powers\HolyPower.class
+WoWPaladin\potions\PlaceholderPotion.class
+WoWPaladin\orbs\DefaultOrb.class
 WoWPaladin\patches\DefaultInsertPatch$Locator.class
 WoWPaladin\cards\Purge.class
 WoWPaladin\cards\BlindingLight.class
@@ -49,6 +52,7 @@ WoWPaladin\cards\BlessingOfKings.class
 WoWPaladin\cards\Brace.class
 WoWPaladin\cards\LayOnHands.class
 WoWPaladin\cards\Resolve.class
+WoWPaladin\cards\WeaponizedZeal.class
 WoWPaladin\cards\JusticeDemandsRetribution.class
 WoWPaladin\cards\OathOfPiety.class
 WoWPaladin\patches\relics\BottledPlaceholderField$MakeStatEquivalentCopy.class
@@ -83,6 +87,7 @@ WoWPaladin\cards\DivineBulwark.class
 WoWPaladin\cards\CrusaderAura.class
 WoWPaladin\patches\relics\BottledPlaceholderField.class
 WoWPaladin\powers\GrandCrusaderPower.class
+WoWPaladin\cards\EyeForAnEye.class
 WoWPaladin\OptionCards\SmiteThem.class
 WoWPaladin\cards\AvengersShield.class
 WoWPaladin\orbs\SealOfRighteousness.class
@@ -92,6 +97,7 @@ WoWPaladin\powers\RetributionPower.class
 WoWPaladin\cards\EqualizingSwath.class
 WoWPaladin\cards\FistOfTheHeavens.class
 WoWPaladin\cards\ShieldUp.class
+WoWPaladin\cards\BladeOfWrath.class
 WoWPaladin\relics\DefaultClickableRelic.class
 WoWPaladin\cards\Judgement.class
 WoWPaladin\cards\Vindicate.class

@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
+import com.megacrit.cardcrawl.powers.EquilibriumPower;
 import com.megacrit.cardcrawl.powers.RetainCardPower;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
@@ -23,7 +24,7 @@ public class SeraphStrike extends CustomCard {
     /*
      * Seraph Strike
      * Uncommon Attack
-     * Strike Deal 7(9) damage. Gain 1 Holy. Retain 1 card.
+     * Strike Deal 7(9) damage. Retain your hand this turn.
      */
 
     // TEXT DECLARATION
@@ -55,6 +56,7 @@ public class SeraphStrike extends CustomCard {
     private static final int COST = 1;
     private static final int DAMAGE = 6;
     private static final int UPGRADE_PLUS_DMG = 3;
+    private static final int MAGIC = 1;
 
     // /STAT DECLARATION/
 
@@ -65,7 +67,7 @@ public class SeraphStrike extends CustomCard {
         // Just type this.base and let intelliJ auto complete for you, or, go read up AbstractCard
 
         baseDamage = DAMAGE;
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = MAGIC;
 
         this.tags.add(CardTags.STRIKE);
     }
@@ -83,8 +85,9 @@ public class SeraphStrike extends CustomCard {
                         new HolyPower(p, this.magicNumber), this.magicNumber));
     //Gain Retain
         AbstractDungeon.actionManager.addToBottom(
-                new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player,
-                        new RetainCardPower(p, this.magicNumber), this.magicNumber));
+                new ApplyPowerAction(p, p,
+                        new EquilibriumPower(p, this.magicNumber), this.magicNumber));
+
     }
 
     // Upgraded stats.

@@ -6,6 +6,7 @@ import WoWPaladin.characters.ThePaladin;
 import WoWPaladin.orbs.SealOfJustice;
 import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.actions.defect.RemoveAllOrbsAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -13,6 +14,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.FlameBarrierPower;
+import com.megacrit.cardcrawl.powers.ThornsPower;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -47,12 +50,14 @@ public class JusticeForAll extends CustomCard {
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
     private static final int COST = 1;
+    private static final int MAGIC = 7;
 
     // /STAT DECLARATION/
 
     public JusticeForAll() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.exhaust = true;
+        this.magicNumber = this.baseMagicNumber = MAGIC;
     }
 
     // Actions the card should do.
@@ -64,6 +69,8 @@ public class JusticeForAll extends CustomCard {
         }
 
         AbstractDungeon.actionManager.addToBottom(new ChannelAction(new SealOfJustice()));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new FlameBarrierPower(p, this.magicNumber), this.magicNumber));
+
         // Channel a Seal of Justice
 
     }
