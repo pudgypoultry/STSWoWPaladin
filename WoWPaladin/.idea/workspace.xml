@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Quick fix of two cards">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Flame Barrier Power was too powerful, dialed it back.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/FaithInTheLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/FaithInTheLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/Zeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/Zeal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BladeOfWrath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BladeOfWrath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EyeForAnEye.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EyeForAnEye.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SeraphStrike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SeraphStrike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FaithInTheLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FaithInTheLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Zeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Zeal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614523733335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Flame Barrier Power was too powerful, dialed it back.">
+      <created>1614585310221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614585310221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Quick fix of two cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick fix of two cards" />
+    <MESSAGE value="Flame Barrier Power was too powerful, dialed it back." />
+    <option name="LAST_COMMIT_MESSAGE" value="Flame Barrier Power was too powerful, dialed it back." />
   </component>
 </project>

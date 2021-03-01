@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.EquilibriumPower;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
+import com.megacrit.cardcrawl.powers.RetainCardPower;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -65,7 +66,7 @@ public class GuidingStrike extends AbstractDynamicCard {
 
         if ((AbstractDungeon.player.hasPower(HolyPower.POWER_ID)) && AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount >= this.magicNumber) {
             AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, HolyPower.POWER_ID, this.magicNumber));
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new EquilibriumPower(p, 1), 1));
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new RetainCardPower(p, 2), 2));
         }
     }
 

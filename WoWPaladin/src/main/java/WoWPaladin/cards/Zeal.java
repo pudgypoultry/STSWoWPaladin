@@ -27,7 +27,7 @@ public class Zeal extends CustomCard {
 
     // TEXT DECLARATION
 
-    public static final String ID = WoWPaladin.makeID("Zeal");
+    public static final String ID = WoWPaladin.makeID("WeaponizedZeal");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
     public static final String IMG = makeCardPath("Zeal.png");
