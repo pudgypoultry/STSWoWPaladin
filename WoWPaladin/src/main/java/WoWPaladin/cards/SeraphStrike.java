@@ -80,9 +80,9 @@ public class SeraphStrike extends CustomCard {
                 new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
                         AbstractGameAction.AttackEffect.SLASH_HORIZONTAL)); // The animation the damage action uses to hit.
     //Gain Holy
-        AbstractDungeon.actionManager.addToBottom(
-                new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player,
-                        new HolyPower(p, this.magicNumber), this.magicNumber));
+        //AbstractDungeon.actionManager.addToBottom(
+          //      new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player,
+            //            new HolyPower(p, this.magicNumber), this.magicNumber));
     //Gain Retain
         AbstractDungeon.actionManager.addToBottom(
                 new ApplyPowerAction(p, p,

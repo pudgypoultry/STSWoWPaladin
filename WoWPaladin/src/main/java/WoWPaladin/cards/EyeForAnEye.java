@@ -39,7 +39,7 @@ public class EyeForAnEye extends CustomCard {
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
     private static final int COST = 1;
-    private static final int MAGIC_NUMBER = 15;
+    private static final int MAGIC_NUMBER = 10;
     private static final int UPGRADE_MAGIC = 5;
 
 

@@ -4,43 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" afterDir="false" />
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Quick fix of two cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WoWPaladin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WoWPaladin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ExecutionSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ExecutionSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/BladeOfWrath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/EyeForAnEye.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeForAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeForAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RighteousDuty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RighteousDuty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/SeraphStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CardTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ContemplativeMeditation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultAttackWithVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultCommonAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultCommonPower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultCommonSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultRareAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultRarePower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultRareSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultSecondMagicNumberSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultUncommonAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultUncommonPower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefaultUncommonSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeForAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeForAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OrbSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RighteousDuty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RighteousDuty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BladeOfWrath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BladeOfWrath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EyeForAnEye.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EyeForAnEye.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SeraphStrike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SeraphStrike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Smite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1614155724771</updated>
     </task>
+    <task id="LOCAL-00001" summary="Quick fix of two cards">
+      <created>1614523733335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614523733335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,5 +96,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Quick fix of two cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick fix of two cards" />
   </component>
 </project>
