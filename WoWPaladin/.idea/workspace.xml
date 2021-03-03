@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Flame Barrier Power was too powerful, dialed it back.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/FaithInTheLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/FaithInTheLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/Zeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/Zeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FaithInTheLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FaithInTheLight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Zeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Zeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

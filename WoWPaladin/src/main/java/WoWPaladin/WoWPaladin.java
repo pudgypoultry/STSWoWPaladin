@@ -119,7 +119,7 @@ public class WoWPaladin implements
     private static final String THE_PALADIN_PORTRAIT = "WoWPaladinResources/images/charSelect/PaladinCharacterPortraitBG.png";
     public static final String THE_DEFAULT_SHOULDER_1 = "WoWPaladinResources/images/char/paladinCharacter/shoulder.png";
     public static final String THE_DEFAULT_SHOULDER_2 = "WoWPaladinResources/images/char/paladinCharacter/shoulder2.png";
-    public static final String THE_DEFAULT_CORPSE = "WoWPaladinResources/images/char/paladinCharacter/corpse.png";
+    public static final String THE_DEFAULT_CORPSE = "WoWPaladinResources/images/char/paladinCharacter/corpse2.png";
     
     //Mod Badge - A small icon that appears in the mod settings menu next to your mod.
     public static final String BADGE_IMAGE = "WoWPaladinResources/images/Badge.png";
