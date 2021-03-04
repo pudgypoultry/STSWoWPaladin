@@ -29,7 +29,7 @@ public class ExecutionSentence extends CustomCard {
 
     public static final String ID = WoWPaladin.makeID("ExecutionSentence");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-    public static final String IMG = makeCardPath("BlindingLight.png");
+    public static final String IMG = makeCardPath("ExecutionSentence.png");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
@@ -52,7 +52,7 @@ public class ExecutionSentence extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new TheBombPower(p, 2, this.magicNumber), 2));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new TheBombPower(p, 3, this.magicNumber), 3));
     }
 
     @Override

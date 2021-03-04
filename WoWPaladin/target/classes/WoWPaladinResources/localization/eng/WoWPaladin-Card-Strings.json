@@ -363,8 +363,8 @@
     "NAME": "Shield Up!",
     "DESCRIPTION": "Gain !B! block. NL If you have !M! holy, spend it and gain 5 thorns."
   },
-  "WoWPaladin:BladeOfWrath": {
-    "NAME": "Blade of Wrath",
+  "WoWPaladin:BladeOfJustice": {
+    "NAME": "Blade of Justice",
     "DESCRIPTION": "Deal !D! damage. NL When you are attacked this turn, deal !M! damage back."
   },
   "WoWPaladin:EyeForAnEye": {

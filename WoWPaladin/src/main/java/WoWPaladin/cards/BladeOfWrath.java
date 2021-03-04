@@ -27,10 +27,10 @@ public class BladeOfWrath extends CustomCard {
 
     // TEXT DECLARATION
 
-    public static final String ID = WoWPaladin.makeID("BladeOfWrath");
+    public static final String ID = WoWPaladin.makeID("BladeOfJustice");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("StrikePaladin.png");
+    public static final String IMG = makeCardPath("BladeOfJustice.png");
 
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
