@@ -3,6 +3,7 @@ package WoWPaladin.potions;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.powers.HolyPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -23,7 +24,7 @@ public class BottledLight extends CustomPotion {
 
     public BottledLight() {
         // The bottle shape and inside is determined by potion size and color. The actual colors are the main DefaultMod.java
-        super(NAME, POTION_ID, PotionRarity.UNCOMMON, PotionSize.FAIRY, PotionColor.ANCIENT);
+        super(NAME, POTION_ID, PotionRarity.UNCOMMON, PotionSize.BOTTLE, PotionColor.WHITE);
         
         // Potency is the damage/magic number equivalent of potions.
         potency = getPotency();
@@ -58,6 +59,7 @@ public class BottledLight extends CustomPotion {
         // If you are in combat, gain strength and the "lose strength at the end of your turn" power, equal to the potency of this potion.
         if (AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT) {
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(target, AbstractDungeon.player, new HolyPower(AbstractDungeon.player, potency), potency));
+            AbstractDungeon.actionManager.addToBottom(new HealAction(AbstractDungeon.player, AbstractDungeon.player, 2));
         }
     }
     
