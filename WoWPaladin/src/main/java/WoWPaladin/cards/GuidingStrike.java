@@ -43,8 +43,6 @@ public class GuidingStrike extends AbstractDynamicCard {
     private static final int MAGIC = 2;
     private static final int UPGRADE_MAGIC = -1;
 
-    public int specialDamage;
-
     // /STAT DECLARATION/
 
     public GuidingStrike() {

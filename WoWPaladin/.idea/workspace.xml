@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Flame Barrier Power was too powerful, dialed it back.">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Added death image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/WoWPaladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/GuidingStrike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614585310221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added death image">
+      <created>1614794513421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614794513421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added death image">
+      <created>1614794524115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614794524115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Quick fix of two cards" />
     <MESSAGE value="Flame Barrier Power was too powerful, dialed it back." />
-    <option name="LAST_COMMIT_MESSAGE" value="Flame Barrier Power was too powerful, dialed it back." />
+    <MESSAGE value="Added death image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added death image" />
   </component>
 </project>
