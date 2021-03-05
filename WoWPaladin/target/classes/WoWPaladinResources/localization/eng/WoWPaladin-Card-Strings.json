@@ -126,8 +126,8 @@
   },
   "WoWPaladin:Prayer": {
     "NAME": "Prayer",
-    "DESCRIPTION": "Gain 5 holy. Lose 5 holy at end of turn.",
-    "UPGRADE_DESCRIPTION": "Gain 5 holy. Lose 5 holy at end of turn. NL Return a card from your discard pile to your hand."
+    "DESCRIPTION": "Gain 5 Holy. Lose 5 Holy at end of turn.",
+    "UPGRADE_DESCRIPTION": "Gain 5 Holy. Lose 5 Holy at end of turn. NL Return a card from your discard pile to your hand."
   },
   "WoWPaladin:RighteousAnger": {
     "NAME": "Righteous Anger",
@@ -226,7 +226,7 @@
   },
   "WoWPaladin:EqualizingSwath": {
     "NAME": "Equality",
-    "DESCRIPTION": "Deal !D! damage divided equally among all enemies. NL Gain !M! holy. "
+    "DESCRIPTION": "Deal !D! damage divided equally among all enemies. NL Gain !M! Holy. "
   },
   "WoWPaladin:GuidingStrike": {
     "NAME": "Guiding Strike",
@@ -250,7 +250,7 @@
   },
   "WoWPaladin:HammerOfWrath": {
     "NAME": "Hammer of Wrath",
-    "DESCRIPTION": "Gain !M! holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal. NL Exhaust."
+    "DESCRIPTION": "Gain !M! Holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal. NL Exhaust."
   },
   "WoWPaladin:SealEvoke": {
     "NAME": "Unleash Seal",
@@ -262,7 +262,7 @@
   },
   "WoWPaladin:Smite": {
     "NAME": "Smite",
-    "DESCRIPTION": "Deal damage equal to !M! times your holy NL (Strength added after)"
+    "DESCRIPTION": "Deal damage equal to !M! times your Holy NL (Strength added after)"
   },
   "WoWPaladin:HandOfReckoning": {
     "NAME": "Hand of Reckoning",
@@ -282,7 +282,7 @@
   },
   "WoWPaladin:SacredCross": {
     "NAME": "Holy Shock",
-    "DESCRIPTION": "Deal !D! damage two times. NL Increased by your holy."
+    "DESCRIPTION": "Deal !D! damage two times. NL Increased by your Holy."
   },
   "WoWPaladin:ZealotsThrust": {
     "NAME": "Zealot's Thrust",
@@ -290,11 +290,11 @@
   },
   "WoWPaladin:DivineBulwark": {
     "NAME": "Divine Bulwark",
-    "DESCRIPTION": "Gain plated armor equal to your holy, then gain !M! holy."
+    "DESCRIPTION": "Gain plated armor equal to your Holy, then gain !M! Holy."
   },
   "WoWPaladin:HammerOfJustice": {
     "NAME": "Hammer of Justice",
-    "DESCRIPTION": "Stun the target. NL Gain !M! holy. NL Exhaust."
+    "DESCRIPTION": "Stun the target. NL Gain !M! Holy. NL Exhaust."
   },
   "WoWPaladin:Resolve": {
     "NAME": "Resolve",
@@ -317,25 +317,25 @@
   },
   "WoWPaladin:RetributionAura": {
     "NAME": "Retribution Aura",
-    "DESCRIPTION": "Whenever you gain holy, gain !M! strength."
+    "DESCRIPTION": "Whenever you gain Holy, gain !M! strength."
   },
   "WoWPaladin:ResistanceAura": {
     "NAME": "Resistance Aura",
-    "DESCRIPTION": "Whenever you gain holy, gain !M! dexterity."
+    "DESCRIPTION": "Whenever you gain Holy, gain !M! dexterity."
   },
   "WoWPaladin:ConcentrationAura": {
     "NAME": "Concentration Aura",
-    "DESCRIPTION": "Whenever you gain holy, gain !M! focus."
+    "DESCRIPTION": "Whenever you gain Holy, gain !M! focus."
   },
   "WoWPaladin:GrandCrusader": {
     "NAME": "Grand Crusader",
-    "DESCRIPTION": "At the beginning of each round, gain 5 holy. NL Ethereal.",
-    "UPGRADE_DESCRIPTION": "At the beginning of each round, gain 5 holy."
+    "DESCRIPTION": "At the beginning of each round, gain 5 Holy. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "At the beginning of each round, gain 5 Holy."
   },
   "WoWPaladin:CrusaderAura": {
     "NAME": "Crusader Aura",
-    "DESCRIPTION": "At the beginning of each round, retain cards equal to your holy.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, retain cards equal to your holy."
+    "DESCRIPTION": "At the beginning of each round, retain cards equal to your Holy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, retain cards equal to your Holy."
   },
   "WoWPaladin:Consecration": {
     "NAME": "Consecration",
@@ -361,7 +361,7 @@
   },
   "WoWPaladin:ShieldUp": {
     "NAME": "Shield Up!",
-    "DESCRIPTION": "Gain !B! block. NL If you have !M! holy, spend it and gain 5 thorns."
+    "DESCRIPTION": "Gain !B! block. NL If you have !M! Holy, spend it and gain 5 thorns."
   },
   "WoWPaladin:BladeOfJustice": {
     "NAME": "Blade of Justice",
@@ -369,10 +369,10 @@
   },
   "WoWPaladin:EyeForAnEye": {
     "NAME": "Eye For An Eye",
-    "DESCRIPTION": "When you are attacked this turn, deal !M! damage back. NL Gain 2 holy."
+    "DESCRIPTION": "When you are attacked this turn, deal !M! damage back. NL Gain 2 Holy."
   },
   "WoWPaladin:ExecutionSentence": {
     "NAME": "Execution Sentence",
-    "DESCRIPTION": "At the end of 2 turns, deal !M! to each enemy."
+    "DESCRIPTION": "At the end of 3 turns, deal !M! to each enemy."
   }
 }

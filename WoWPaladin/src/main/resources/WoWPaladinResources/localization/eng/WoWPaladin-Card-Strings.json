@@ -353,7 +353,7 @@
   },
   "WoWPaladin:ZealousPersecution": {
     "NAME": "Zealous Persecution",
-    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength to target."
+    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength from the target."
   },
   "WoWPaladin:Thorns": {
     "NAME": "Shield Spikes",
