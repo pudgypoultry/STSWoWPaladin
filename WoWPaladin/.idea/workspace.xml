@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Potion Color added">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Near final draft push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/potions/BottledLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/potions/BottledLight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Potion-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Potion-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614901412685</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Near final draft push">
+      <created>1614980215618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614980215618</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +150,7 @@
     <MESSAGE value="Added campfire image" />
     <MESSAGE value="Added final card images and corrected Execution Sentence" />
     <MESSAGE value="Potion Color added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Potion Color added" />
+    <MESSAGE value="Near final draft push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Near final draft push" />
   </component>
 </project>

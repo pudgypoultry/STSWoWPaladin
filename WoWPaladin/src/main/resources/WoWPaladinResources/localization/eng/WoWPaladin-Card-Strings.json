@@ -334,8 +334,8 @@
   },
   "WoWPaladin:CrusaderAura": {
     "NAME": "Crusader Aura",
-    "DESCRIPTION": "At the beginning of each round, retain cards equal to your Holy.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, retain cards equal to your Holy."
+    "DESCRIPTION": "At the beginning of each round, gain temporary Retain equal to your Holy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, gain temporary Retain equal to your Holy."
   },
   "WoWPaladin:Consecration": {
     "NAME": "Consecration",
