@@ -201,7 +201,7 @@
   },
   "WoWPaladin:OathOfChains": {
     "NAME": "Oath of Chains",
-    "DESCRIPTION": "Gain !B! plated armor. NL When this is retained, apply !M! weak to all enemies."
+    "DESCRIPTION": "Gain 3 plated armor. NL When this is retained, apply !M! weak to all enemies."
   },
   "WoWPaladin:OathOfPiety": {
     "NAME": "Oath of Piety",

@@ -69,7 +69,7 @@ public class OathOfChains extends CustomCard {
         //give player plated armor
         AbstractDungeon.actionManager.addToBottom( // 2.Gain plated armor
                 new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player,
-                        new com.megacrit.cardcrawl.powers.PlatedArmorPower(AbstractDungeon.player, block), block));
+                        new com.megacrit.cardcrawl.powers.PlatedArmorPower(AbstractDungeon.player, 3), 3));
     }
 
     public void onRetained() {
