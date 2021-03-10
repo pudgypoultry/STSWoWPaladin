@@ -28,6 +28,7 @@ public class ConcentrationAura extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("ConcentrationAura.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     // /TEXT DECLARATION/
 
@@ -62,8 +63,10 @@ public class ConcentrationAura extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            //upgradeMagicNumber(UPGRADE_MAGIC);
+            this.rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
+            this.isInnate = true;
         }
     }
 }

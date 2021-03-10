@@ -4,10 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Near final draft push">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Changed Divine Bulwark">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/Consecration84.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ConcentrationAura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ConcentrationAura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ResistanceAura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/ResistanceAura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RetributionAura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/RetributionAura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_attack_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_attack_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_power_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_power_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_skill_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/1024/bg_skill_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_attack_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_attack_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_power_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_power_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_skill_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/512/bg_skill_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/BlindingLight_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/BlindingLight_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/DefendPaladin_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/DefendPaladin_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/EyeForAnEye_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/EyeForAnEye_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/FaithInTheLight_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/FaithInTheLight_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/JusticeForAll_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/JusticeForAll_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/Prayer_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/Prayer_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/RighteousDuty_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/RighteousDuty_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/SentinelStance_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/cards/SentinelStance_p.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Keyword-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModTheSpire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ConcentrationAura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ConcentrationAura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineBulwark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineBulwark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ResistanceAura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ResistanceAura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RetributionAura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RetributionAura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_attack_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_attack_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_power_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_power_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_skill_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_skill_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_attack_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_attack_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_power_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_power_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_skill_paladin_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_skill_paladin_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlindingLight_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlindingLight_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DefendPaladin_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DefendPaladin_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EyeForAnEye_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EyeForAnEye_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FaithInTheLight_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FaithInTheLight_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeForAll_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeForAll_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Prayer_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Prayer_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousDuty_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousDuty_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SentinelStance_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SentinelStance_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Keyword-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +85,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -127,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614980215618</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed Divine Bulwark">
+      <created>1615013669113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615013669113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +203,7 @@
     <MESSAGE value="Added final card images and corrected Execution Sentence" />
     <MESSAGE value="Potion Color added" />
     <MESSAGE value="Near final draft push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Near final draft push" />
+    <MESSAGE value="Changed Divine Bulwark" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Divine Bulwark" />
   </component>
 </project>

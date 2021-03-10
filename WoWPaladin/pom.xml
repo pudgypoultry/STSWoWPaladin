@@ -6,7 +6,7 @@
     <groupId>wowpaladin</groupId>
     <artifactId>WoWPaladin</artifactId> <!--Keep a note of this one: this is the ID used in the "auto add cards" method-->
     <name>WoW Paladin Mod</name>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <description>The fallen warrior of the Light awakes at the foot of a looming spire...</description>
 
     <properties>

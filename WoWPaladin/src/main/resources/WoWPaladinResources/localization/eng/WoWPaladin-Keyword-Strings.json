@@ -53,5 +53,12 @@
       "Valiance"
     ],
     "DESCRIPTION": "Valiance effects are active in elite and boss rooms only."
+  },
+  {
+    "NAMES": [
+      "holy",
+      "Holy"
+    ],
+    "DESCRIPTION": "Maximum 5. While Holy has no inherent effect, many of The Paladin's cards use it in positive ways!"
   }
 ]

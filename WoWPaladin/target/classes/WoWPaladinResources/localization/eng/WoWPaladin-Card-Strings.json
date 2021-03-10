@@ -114,28 +114,28 @@
   },
   "WoWPaladin:WakeOfAshes": {
     "NAME": "Wake of Ashes",
-    "DESCRIPTION": "Deal !D! damage to all enemies. NL Gain 5 Holy."
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Gain 5 wowpaladin:Holy."
   },
   "WoWPaladin:HolySmite": {
     "NAME": "Holy Smite",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! weak. NL Gain !M! Holy."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! weak. NL Gain !M! wowpaladin:Holy."
   },
   "WoWPaladin:TemplarsVerdict": {
     "NAME": "Templar's Verdict",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! Holy, spend it and deal that much plus 15 instead."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! wowpaladin:Holy, spend it and deal that much plus 15 instead."
   },
   "WoWPaladin:Prayer": {
     "NAME": "Prayer",
-    "DESCRIPTION": "Gain 5 Holy. Lose 5 Holy at end of turn.",
-    "UPGRADE_DESCRIPTION": "Gain 5 Holy. Lose 5 Holy at end of turn. NL Return a card from your discard pile to your hand."
+    "DESCRIPTION": "Gain 5 wowpaladin:Holy. Lose 5 wowpaladin:Holy at end of turn.",
+    "UPGRADE_DESCRIPTION": "Gain 5 wowpaladin:Holy. Lose 5 wowpaladin:Holy at end of turn. NL Return a card from your discard pile to your hand."
   },
   "WoWPaladin:RighteousAnger": {
     "NAME": "Righteous Anger",
-    "DESCRIPTION": "Deal !M! damage per Holy (Deals !D! Damage). NL Put a copy of this card into your discard pile."
+    "DESCRIPTION": "Deal !M! damage per wowpaladin:Holy (Deals !D! Damage). NL Put a copy of this card into your discard pile."
   },
   "WoWPaladin:Rebuke": {
     "NAME": "Rebuke",
-    "DESCRIPTION": "Deal !D! Damage. NL Gain !M! Holy."
+    "DESCRIPTION": "Deal !D! Damage. NL Gain !M! wowpaladin:Holy."
   },
   "WoWPaladin:Judgement": {
     "NAME": "Judgement",
@@ -152,7 +152,7 @@
   },
   "WoWPaladin:BlindingLight": {
     "NAME": "Blinding Light",
-    "DESCRIPTION": "All Enemies gain !M! weak. NL Gain !M! Holy. NL Draw a card."
+    "DESCRIPTION": "All Enemies gain !M! weak. NL Gain !M! wowpaladin:Holy. NL Draw a card."
   },
   "WoWPaladin:BlessingOfWisdom": {
     "NAME": "Blessing of Wisdom",
@@ -173,15 +173,15 @@
   },
   "WoWPaladin:BlessedBreastplate": {
     "NAME": "Blessed Breastplate",
-    "DESCRIPTION": "Gain !B! block. Gain 1 Holy"
+    "DESCRIPTION": "Gain !B! block. Gain 1 wowpaladin:Holy"
   },
   "WoWPaladin:DivineStorm": {
     "NAME": "Divine Storm",
-    "DESCRIPTION": "Deal !D! damage.  Spend all Holy and add a free copy of this card for each Holy spent. (They will exhaust when played)"
+    "DESCRIPTION": "Deal !D! damage.  Spend all wowpaladin:Holy and add a free copy of this card for each wowpaladin:Holy spent. (They will exhaust when played)"
   },
   "WoWPaladin:ContemplativeMedicine": {
     "NAME": "Contemplative Medicine",
-    "DESCRIPTION": "Spend all Holy.  Gain focus equal to Holy spent.  Exhaust."
+    "DESCRIPTION": "Spend all wowpaladin:Holy.  Gain focus equal to wowpaladin:Holy spent.  Exhaust."
   },
   "WoWPaladin:Vindicate": {
     "NAME": "Vindicate",
@@ -226,11 +226,11 @@
   },
   "WoWPaladin:EqualizingSwath": {
     "NAME": "Equality",
-    "DESCRIPTION": "Deal !D! damage divided equally among all enemies. NL Gain !M! Holy. "
+    "DESCRIPTION": "Deal !D! damage divided equally among all enemies. NL Gain !M! wowpaladin:Holy. "
   },
   "WoWPaladin:GuidingStrike": {
     "NAME": "Guiding Strike",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! Holy, spend it and gain retain 2."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! wowpaladin:Holy, spend it and gain retain 2."
   },
   "WoWPaladin:FistOfTheHeavens": {
     "NAME": "Fist of the Heavens",
@@ -250,7 +250,7 @@
   },
   "WoWPaladin:HammerOfWrath": {
     "NAME": "Hammer of Wrath",
-    "DESCRIPTION": "Gain !M! Holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal. NL Exhaust."
+    "DESCRIPTION": "Gain !M! wowpaladin:Holy. The next attack you play this turn costs 0. NL Choose one: Add a Smite to your hand or Evoke your seal. NL Exhaust."
   },
   "WoWPaladin:SealEvoke": {
     "NAME": "Unleash Seal",
@@ -262,7 +262,7 @@
   },
   "WoWPaladin:Smite": {
     "NAME": "Smite",
-    "DESCRIPTION": "Deal damage equal to !M! times your Holy NL (Strength added after)"
+    "DESCRIPTION": "Deal damage equal to !M! times your wowpaladin:Holy NL (Strength added after)"
   },
   "WoWPaladin:HandOfReckoning": {
     "NAME": "Hand of Reckoning",
@@ -282,7 +282,7 @@
   },
   "WoWPaladin:SacredCross": {
     "NAME": "Holy Shock",
-    "DESCRIPTION": "Deal !D! damage two times. NL Increased by your Holy."
+    "DESCRIPTION": "Deal !D! damage two times. NL Increased by your wowpaladin:Holy."
   },
   "WoWPaladin:ZealotsThrust": {
     "NAME": "Zealot's Thrust",
@@ -290,11 +290,11 @@
   },
   "WoWPaladin:DivineBulwark": {
     "NAME": "Divine Bulwark",
-    "DESCRIPTION": "Gain plated armor equal to your Holy, then gain !M! Holy."
+    "DESCRIPTION": "Gain plated armor equal to your wowpaladin:Holy, then gain !M! wowpaladin:Holy."
   },
   "WoWPaladin:HammerOfJustice": {
     "NAME": "Hammer of Justice",
-    "DESCRIPTION": "Stun the target. NL Gain !M! Holy. NL Exhaust."
+    "DESCRIPTION": "Stun the target. NL Gain !M! wowpaladin:Holy. NL Exhaust."
   },
   "WoWPaladin:Resolve": {
     "NAME": "Resolve",
@@ -317,25 +317,28 @@
   },
   "WoWPaladin:RetributionAura": {
     "NAME": "Retribution Aura",
-    "DESCRIPTION": "Whenever you gain Holy, gain !M! strength."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! strength.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! strength."
   },
   "WoWPaladin:ResistanceAura": {
     "NAME": "Resistance Aura",
-    "DESCRIPTION": "Whenever you gain Holy, gain !M! dexterity."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! dexterity.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! dexterity."
   },
   "WoWPaladin:ConcentrationAura": {
     "NAME": "Concentration Aura",
-    "DESCRIPTION": "Whenever you gain Holy, gain !M! focus."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! focus.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! focus."
   },
   "WoWPaladin:GrandCrusader": {
     "NAME": "Grand Crusader",
-    "DESCRIPTION": "At the beginning of each round, gain 5 Holy. NL Ethereal.",
-    "UPGRADE_DESCRIPTION": "At the beginning of each round, gain 5 Holy."
+    "DESCRIPTION": "At the beginning of each round, gain 5 wowpaladin:Holy. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "At the beginning of each round, gain 5 wowpaladin:Holy."
   },
   "WoWPaladin:CrusaderAura": {
     "NAME": "Crusader Aura",
-    "DESCRIPTION": "At the beginning of each round, retain cards equal to your Holy.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, retain cards equal to your Holy."
+    "DESCRIPTION": "At the beginning of each round, gain temporary Retain equal to your wowpaladin:Holy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the beginning of each round, gain temporary Retain equal to your wowpaladin:Holy."
   },
   "WoWPaladin:Consecration": {
     "NAME": "Consecration",
@@ -353,7 +356,7 @@
   },
   "WoWPaladin:ZealousPersecution": {
     "NAME": "Zealous Persecution",
-    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength to target."
+    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength from the target."
   },
   "WoWPaladin:Thorns": {
     "NAME": "Shield Spikes",
@@ -361,7 +364,7 @@
   },
   "WoWPaladin:ShieldUp": {
     "NAME": "Shield Up!",
-    "DESCRIPTION": "Gain !B! block. NL If you have !M! Holy, spend it and gain 5 thorns."
+    "DESCRIPTION": "Gain !B! block. NL If you have !M! wowpaladin:Holy, spend it and gain 5 thorns."
   },
   "WoWPaladin:BladeOfJustice": {
     "NAME": "Blade of Justice",
@@ -369,7 +372,7 @@
   },
   "WoWPaladin:EyeForAnEye": {
     "NAME": "Eye For An Eye",
-    "DESCRIPTION": "When you are attacked this turn, deal !M! damage back. NL Gain 2 Holy."
+    "DESCRIPTION": "When you are attacked this turn, deal !M! damage back. NL Gain 2 wowpaladin:Holy."
   },
   "WoWPaladin:ExecutionSentence": {
     "NAME": "Execution Sentence",

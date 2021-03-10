@@ -18,9 +18,9 @@ import static WoWPaladin.WoWPaladin.makeCardPath;
 public class DivineBulwark extends CustomCard {
 
     /*
-     * Wiki-page: https://github.com/daviscook477/BaseMod/wiki/Custom-Cards
-     *
-     * Defend Gain 5 (8) block.
+     * Divine Bulwark - 2(1)
+     * Common Skill
+     * Gain Plated Armor equal to your holy. Gain 1 holy.
      */
 
 
@@ -78,7 +78,7 @@ public class DivineBulwark extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            //upgradeMagicNumber(UPGRADE_MAGIC);
             upgradeBaseCost(1);
             initializeDescription();
         }

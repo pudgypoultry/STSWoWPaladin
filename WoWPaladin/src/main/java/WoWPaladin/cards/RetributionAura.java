@@ -30,6 +30,7 @@ public class RetributionAura extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("RetributionAura.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     // /TEXT DECLARATION/
 
@@ -64,7 +65,9 @@ public class RetributionAura extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            //upgradeMagicNumber(UPGRADE_MAGIC);
+            this.isInnate = true;
+            this.rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
         }
     }

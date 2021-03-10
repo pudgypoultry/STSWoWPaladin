@@ -41,7 +41,7 @@
         },
         "WoWPaladin:CrusaderAuraPower": {
                 "NAME": "Crusader Aura",
-                "DESCRIPTIONS": ["At the beginning of every round, retain cards equal to your #yHoly."]
+                "DESCRIPTIONS": ["At the beginning of every round, gain temporary retain equal to your #yHoly."]
         },
         "WoWPaladin:FlexRetain": {
                 "NAME": "Retain Down",

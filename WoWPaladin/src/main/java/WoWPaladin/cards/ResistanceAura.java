@@ -31,6 +31,7 @@ public class ResistanceAura extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("ResistanceAura.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     // /TEXT DECLARATION/
 
@@ -65,7 +66,9 @@ public class ResistanceAura extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            this.isInnate = true;
+            //upgradeMagicNumber(UPGRADE_MAGIC);
+            this.rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
         }
     }
