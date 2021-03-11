@@ -4,9 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Final update before upload">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Fixed Oath of Chains">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/ConsecrationPower32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/ConsecrationPower84.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/CrusadersJudgement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/CrusadersJudgement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/HammerOfJustice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/HammerOfJustice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeDemandsRetribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeDemandsRetribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/LayOnHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/LayOnHands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/OathOfVigilance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/OathOfVigilance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/WakeOfAshes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/WakeOfAshes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/characters/ThePaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/characters/ThePaladin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfJustice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfJustice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfRighteousness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfRighteousness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConcentrationAuraPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConcentrationAuraPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConsecrationPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConsecrationPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ResistanceAuraPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ResistanceAuraPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/RetributionPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/RetributionPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/placeholder_power32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/placeholder_power32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusadersJudgement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusadersJudgement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfJustice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfJustice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeDemandsRetribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeDemandsRetribution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LayOnHands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LayOnHands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfChains.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfChains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfVigilance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfVigilance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WakeOfAshes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WakeOfAshes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfJustice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfJustice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfRighteousness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfRighteousness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConcentrationAuraPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConcentrationAuraPower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConsecrationPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConsecrationPower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ResistanceAuraPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ResistanceAuraPower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RetributionPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RetributionPower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power32.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615364571455</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed Oath of Chains">
+      <created>1615412988822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615412988822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +211,7 @@
     <MESSAGE value="Near final draft push" />
     <MESSAGE value="Changed Divine Bulwark" />
     <MESSAGE value="Final update before upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final update before upload" />
+    <MESSAGE value="Fixed Oath of Chains" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Oath of Chains" />
   </component>
 </project>

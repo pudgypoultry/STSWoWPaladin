@@ -118,7 +118,7 @@
   },
   "WoWPaladin:HolySmite": {
     "NAME": "Holy Smite",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! weak. NL Gain !M! wowpaladin:Holy."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Gain !M! wowpaladin:Holy."
   },
   "WoWPaladin:TemplarsVerdict": {
     "NAME": "Templar's Verdict",
@@ -152,7 +152,7 @@
   },
   "WoWPaladin:BlindingLight": {
     "NAME": "Blinding Light",
-    "DESCRIPTION": "All Enemies gain !M! weak. NL Gain !M! wowpaladin:Holy. NL Draw a card."
+    "DESCRIPTION": "All Enemies gain !M! Weak. NL Gain !M! wowpaladin:Holy. NL Draw a card."
   },
   "WoWPaladin:BlessingOfWisdom": {
     "NAME": "Blessing of Wisdom",
@@ -169,7 +169,8 @@
   },
   "WoWPaladin:CrusadersJudgement": {
     "NAME": "Crusader's Judgement",
-    "DESCRIPTION": "Draw !M! Card(s). NL Deal damage equal to the number of cards in your hand."
+    "DESCRIPTION": "Draw !M! Card. NL Deal damage equal to the number of cards in your hand.",
+    "UPGRADE_DESCRIPTION": "Draw !M! Cards. NL Deal damage equal to the number of cards in your hand."
   },
   "WoWPaladin:BlessedBreastplate": {
     "NAME": "Blessed Breastplate",
@@ -197,19 +198,19 @@
   },
   "WoWPaladin:OathOfVigilance": {
     "NAME": "Oath of Vigilance",
-    "DESCRIPTION": "Gain !B! block. NL When this is retained, gain !M! block."
+    "DESCRIPTION": "Gain !B! block. NL When this is Retained, gain !M! block."
   },
   "WoWPaladin:OathOfChains": {
     "NAME": "Oath of Chains",
-    "DESCRIPTION": "Gain !B! plated armor. NL When this is retained, apply !M! weak to all enemies."
+    "DESCRIPTION": "Gain 3 plated armor. NL When this is Retained, apply !M! weak to all enemies."
   },
   "WoWPaladin:OathOfPiety": {
     "NAME": "Oath of Piety",
-    "DESCRIPTION": "Gain !B! block. NL When this is retained, gain !M! strength."
+    "DESCRIPTION": "Gain !B! block. NL When this is Retained, gain !M! strength."
   },
   "WoWPaladin:Aegis": {
     "NAME": "Aegis",
-    "DESCRIPTION": "The next !M! time(s) you would take damage, prevent it. NL Gain !M! artifact."
+    "DESCRIPTION": "The next !M! time(s) you would take damage, prevent it. NL Gain !M! Artifact."
   },
   "WoWPaladin:ArdentDefense": {
     "NAME": "Ardent Defense",
@@ -230,7 +231,7 @@
   },
   "WoWPaladin:GuidingStrike": {
     "NAME": "Guiding Strike",
-    "DESCRIPTION": "Deal !D! damage. NL If you have !M! wowpaladin:Holy, spend it and gain retain 2."
+    "DESCRIPTION": "Deal !D! damage. NL If you have !M! wowpaladin:Holy, spend it and gain Retain 2."
   },
   "WoWPaladin:FistOfTheHeavens": {
     "NAME": "Fist of the Heavens",
@@ -282,11 +283,11 @@
   },
   "WoWPaladin:SacredCross": {
     "NAME": "Holy Shock",
-    "DESCRIPTION": "Deal !D! damage two times. NL Increased by your wowpaladin:Holy."
+    "DESCRIPTION": "Deal !D! damage two times. NL Damage is increased by your wowpaladin:Holy."
   },
   "WoWPaladin:ZealotsThrust": {
     "NAME": "Zealot's Thrust",
-    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, gain !M! strength."
+    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, gain !M! Strength."
   },
   "WoWPaladin:DivineBulwark": {
     "NAME": "Divine Bulwark",
@@ -302,8 +303,8 @@
   },
   "WoWPaladin:LightsMeditation": {
     "NAME": "Light's Meditation",
-    "DESCRIPTION": "Put X cards from your discard into your hand and retain them this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Put X+1 cards from your discard into your hand and retain them this turn. NL Exhaust."
+    "DESCRIPTION": "Put X cards from your discard into your hand and Retain them this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Put X+1 cards from your discard into your hand and Retain them this turn. NL Exhaust."
   },
   "WoWPaladin:Brace": {
     "NAME": "Brace",
@@ -317,18 +318,18 @@
   },
   "WoWPaladin:RetributionAura": {
     "NAME": "Retribution Aura",
-    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! strength.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! strength."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! Strength.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! Strength."
   },
   "WoWPaladin:ResistanceAura": {
     "NAME": "Resistance Aura",
-    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! dexterity.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! dexterity."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! Dexterity."
   },
   "WoWPaladin:ConcentrationAura": {
     "NAME": "Concentration Aura",
-    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! focus.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! focus."
+    "DESCRIPTION": "Whenever you gain wowpaladin:Holy, gain !M! Focus.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain wowpaladin:Holy, gain !M! Focus."
   },
   "WoWPaladin:GrandCrusader": {
     "NAME": "Grand Crusader",
@@ -356,7 +357,7 @@
   },
   "WoWPaladin:ZealousPersecution": {
     "NAME": "Zealous Persecution",
-    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! strength from the target."
+    "DESCRIPTION": "Deal !D! damage. NL If you do not control a seal, subtract !M! Strength from the target."
   },
   "WoWPaladin:Thorns": {
     "NAME": "Shield Spikes",
@@ -376,6 +377,6 @@
   },
   "WoWPaladin:ExecutionSentence": {
     "NAME": "Execution Sentence",
-    "DESCRIPTION": "At the end of 3 turns, deal !M! to each enemy."
+    "DESCRIPTION": "At the end of 3 turns, deal !M! damage to each enemy."
   }
 }

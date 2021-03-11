@@ -158,8 +158,8 @@ public class ThePaladin extends CustomPlayer {
         retVal.add(StrikePaladin.ID);
         retVal.add(StrikePaladin.ID);
         retVal.add(StrikePaladin.ID);
-        retVal.add(StrikePaladin.ID);
-        retVal.add(DefendPaladin.ID);
+        //retVal.add(StrikePaladin.ID);
+        //retVal.add(DefendPaladin.ID);
         retVal.add(DefendPaladin.ID);
         retVal.add(DefendPaladin.ID);
         retVal.add(DefendPaladin.ID);

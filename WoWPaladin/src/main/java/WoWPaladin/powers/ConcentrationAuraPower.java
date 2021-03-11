@@ -58,7 +58,18 @@ public class ConcentrationAuraPower extends AbstractPower implements OnReceivePo
     @Override
     public boolean onReceivePower(AbstractPower p, AbstractCreature c1, AbstractCreature c2) {
         if(p.ID == HolyPower.POWER_ID){
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(c1, c2, new FocusPower(AbstractDungeon.player, this.amount), this.amount));
+            if((AbstractDungeon.player.hasPower(HolyPower.POWER_ID)) && AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount < 5){
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(c1, c2, new FocusPower(AbstractDungeon.player, this.amount), this.amount));
+            }
+            else if((AbstractDungeon.player.hasPower(HolyPower.POWER_ID)) && AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount == 5){
+                //AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(c1, c2, new StrengthPower(AbstractDungeon.player, this.amount), this.amount));
+
+            }
+            else{
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(c1, c2, new FocusPower(AbstractDungeon.player, this.amount), this.amount));
+            }
+
+            //AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(c1, c2, new FocusPower(AbstractDungeon.player, this.amount), this.amount));
         }
         return true;
     }

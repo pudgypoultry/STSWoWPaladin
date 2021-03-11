@@ -25,6 +25,9 @@ public class ConsecrationPower extends AbstractPower {
     public static final String NAME;
     public static final String[] DESCRIPTIONS;
 
+    private static final Texture tex84 = TextureLoader.getTexture(makePowerPath("ConsecrationPower84.png"));
+    private static final Texture tex32 = TextureLoader.getTexture(makePowerPath("ConsecrationPower32.png"));
+
     public ConsecrationPower(AbstractCreature owner, int newAmount) {
         this.name = NAME;
         this.ID = POWER_ID;
@@ -32,7 +35,8 @@ public class ConsecrationPower extends AbstractPower {
         this.amount = newAmount;
         this.type = PowerType.BUFF;
         this.updateDescription();
-        this.loadRegion("flameBarrier");
+        this.region128 = new TextureAtlas.AtlasRegion(tex84, 0, 0, 84, 84);
+        this.region48 = new TextureAtlas.AtlasRegion(tex32, 0, 0, 32, 32);
     }
 
     public void updateDescription() {
@@ -40,9 +44,9 @@ public class ConsecrationPower extends AbstractPower {
     }
 
     public void atEndOfTurn(boolean isPlayer) {
-        AbstractDungeon.actionManager.addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, amount * AbstractDungeon.player.hand.size(), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.NONE));
+        AbstractDungeon.actionManager.addToTop(new DamageAllEnemiesAction((AbstractCreature)null, DamageInfo.createDamageMatrix(amount * AbstractDungeon.player.hand.size(), true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.FIRE));
 
-
+        //AbstractDungeon.actionManager.addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, amount * AbstractDungeon.player.hand.size(), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.NONE));
     }
 
     static {

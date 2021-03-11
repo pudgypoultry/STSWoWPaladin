@@ -63,7 +63,9 @@ public class CrusadersJudgement extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
+            this.rawDescription = UPGRADE_DESCRIPTION;
             upgradeMagicNumber(1);
+            initializeDescription();
         }
     }
 

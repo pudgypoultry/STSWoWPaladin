@@ -42,8 +42,8 @@ public class HammerOfJustice extends CustomCard {
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.ENEMY;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
-    private static final int COST = 2;
-    private static final int UPGRADE_COST = 1;
+    private static final int COST = 3;
+    private static final int UPGRADE_COST = 2;
     private static final int MAGIC = 2;
 
     public HammerOfJustice() {

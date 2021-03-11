@@ -39,6 +39,7 @@ public class LayOnHands extends CustomCard {
     private static final int COST = 3;
     private static final int HEAL_AMT = 10;
     private static final int UPGRADE_MAGIC = 5;
+    private static final int UPGRADE_COST = 2;
 
 
 
@@ -62,7 +63,8 @@ public class LayOnHands extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC);
+            upgradeBaseCost(UPGRADE_COST);
+            //upgradeMagicNumber(UPGRADE_MAGIC);
             initializeDescription();
         }
     }
