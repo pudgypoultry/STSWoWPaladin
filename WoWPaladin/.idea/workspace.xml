@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Divine Storm wording fixed">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Purge updated, was incorrectly marked as a debuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/PurgePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/PurgePower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineStorm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineStorm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/PurgePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/PurgePower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615534184790</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Purge updated, was incorrectly marked as a debuff">
+      <created>1615581895252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615581895252</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +199,7 @@
     <MESSAGE value="Fixed Oath of Chains" />
     <MESSAGE value="First big update after release" />
     <MESSAGE value="Divine Storm wording fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Divine Storm wording fixed" />
+    <MESSAGE value="Purge updated, was incorrectly marked as a debuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Purge updated, was incorrectly marked as a debuff" />
   </component>
 </project>

@@ -44,7 +44,7 @@ public class DivineBulwark extends CustomCard {
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
 
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final int MAGIC = 1;
     private static final int UPGRADE_MAGIC = 1;
 
@@ -54,6 +54,7 @@ public class DivineBulwark extends CustomCard {
     public DivineBulwark() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.magicNumber = baseMagicNumber = MAGIC;
+        this.exhaust = true;
 
     }
 
@@ -78,8 +79,8 @@ public class DivineBulwark extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            //upgradeMagicNumber(UPGRADE_MAGIC);
-            upgradeBaseCost(1);
+            upgradeMagicNumber(UPGRADE_MAGIC);
+            //upgradeBaseCost(1);
             initializeDescription();
         }
     }

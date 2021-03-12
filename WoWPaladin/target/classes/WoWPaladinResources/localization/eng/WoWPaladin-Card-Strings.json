@@ -291,7 +291,7 @@
   },
   "WoWPaladin:DivineBulwark": {
     "NAME": "Divine Bulwark",
-    "DESCRIPTION": "Gain plated armor equal to your wowpaladin:Holy, then gain !M! wowpaladin:Holy."
+    "DESCRIPTION": "Gain plated armor equal to your wowpaladin:Holy, then gain !M! wowpaladin:Holy. NL Exhaust."
   },
   "WoWPaladin:HammerOfJustice": {
     "NAME": "Hammer of Justice",
