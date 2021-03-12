@@ -50,7 +50,8 @@ public class DivineStorm extends CustomCard {
     }
 
     public DivineStorm(boolean exhaust, boolean upgraded) {
-        super(ID, NAME, IMG, 0, DESCRIPTION.substring(0,95) + " Exhaust.", TYPE, COLOR, RARITY, TARGET);
+        //super(ID, NAME, IMG, 0, DESCRIPTION.substring(0,95) + " Exhaust.", TYPE, COLOR, RARITY, TARGET);
+        super(ID, NAME, IMG, 0, DESCRIPTION + " Exhaust.", TYPE, COLOR, RARITY, TARGET);
         this.exhaust = exhaust;
         this.baseDamage = DAMAGE;
         if (upgraded) {

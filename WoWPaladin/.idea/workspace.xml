@@ -4,47 +4,380 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Fixed Oath of Chains">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/ConsecrationPower32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/ConsecrationPower84.png" afterDir="false" />
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="First big update after release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/CrusadersJudgement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/CrusadersJudgement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/HammerOfJustice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/HammerOfJustice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeDemandsRetribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/JusticeDemandsRetribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/LayOnHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/LayOnHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/OathOfVigilance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/OathOfVigilance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/WakeOfAshes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/WakeOfAshes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/characters/ThePaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/characters/ThePaladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfJustice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfJustice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfRighteousness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/orbs/SealOfRighteousness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConcentrationAuraPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConcentrationAuraPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConsecrationPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ConsecrationPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ResistanceAuraPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/ResistanceAuraPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/RetributionPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/powers/RetributionPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/placeholder_power32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/images/powers/placeholder_power32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WoWPaladin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusadersJudgement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusadersJudgement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfJustice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfJustice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeDemandsRetribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeDemandsRetribution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LayOnHands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LayOnHands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfChains.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfChains.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfVigilance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfVigilance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WakeOfAshes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WakeOfAshes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfJustice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfJustice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfLight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfRighteousness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfRighteousness.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConcentrationAuraPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConcentrationAuraPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConsecrationPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConsecrationPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ResistanceAuraPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ResistanceAuraPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RetributionPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RetributionPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power32.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineStorm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineStorm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WoWPaladin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IDCheckStringsDONT-EDIT-AT-ALL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ModTheSpire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/OptionCards/SealEvoke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/OptionCards/SmiteThem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/WoWPaladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/actions/HammerOfWrathAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/actions/JusticeDemandsRetributionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/actions/TemplarsVerdictAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/actions/UncommonPowerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/AbstractDefaultCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/AbstractDynamicCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Aegis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ArdentDefense.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/AvengersShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/AvengingWrath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BladeOfWrath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BlessedBreastplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BlessingOfKings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BlessingOfWisdom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/BlindingLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Brace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ConcentrationAura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CondemnHeresy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Consecration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusaderAura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusaderStrike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/CrusadersJudgement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DefendPaladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineBulwark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/DivineStorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EqualizingSwath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EstablishmentPaladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ExecutionSentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/EyeForAnEye.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FaithInTheLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FistOfTheHeavens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/FlashOfLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/GrandCrusader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/GuidingStrike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfJustice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HammerOfWrath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HandOfReckoning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/HolySmite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Judgement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeDemandsRetribution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/JusticeForAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LayOnHands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/LightsMeditation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfChains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfPiety.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/OathOfVigilance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Prayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Purge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RapturousCharge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Rebuke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Repentance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ResistanceAura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Resolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RetributionAura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RighteousAnger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RighteousDuty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/RighteousExpulsion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SacredCross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SentinelStance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/SeraphStrike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ShieldUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/StrikePaladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/TemplarsVerdict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Thorns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ValiantCharge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Vindicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WakeOfAshes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/WeaponizedZeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/Zeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ZealotsThrust.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/cards/ZealousPersecution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin$Enums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/characters/ThePaladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/events/IdentityCrisisEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/DefaultOrb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfJustice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/orbs/SealOfRighteousness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/patches/DefaultInsertPatch$Locator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/patches/DefaultInsertPatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/patches/relics/BottledPlaceholderField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/potions/BottledLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/potions/PlaceholderPotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/BracePower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/CommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConcentrationAuraPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ConsecrationPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/CrusaderAuraPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/GrandCrusaderPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/HolyPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/LoseFocusPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/LoseHolyPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/LoseRetainPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/PurgePower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RarePower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/ResistanceAuraPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/powers/RetributionPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/relics/AshbringerRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/relics/BottledPlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/relics/DefaultClickableRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/relics/PlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/relics/PlaceholderRelic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/util/IDCheckDontTouchPls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/util/TextureLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/variables/DefaultCustomVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladin/variables/DefaultSecondMagicNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/Cardback.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_attack_default_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_attack_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_power_default_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_power_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_skill_default_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/bg_skill_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/card_default_gray_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/card_default_gray_orb.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/card_paladin_gray_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/1024/card_paladin_gray_orb.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_attack_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_power_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/bg_skill_paladin_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/card_paladin_gray_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/512/card_small_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/Badge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/.GrandCrusader_p.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/.GuidingStrike.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/.HammerOfWrath.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/.HammerOfWrath_p.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Aegis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Aegis_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ArdentDefense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ArdentDefense_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Attack_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Attack_p.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/AvengersShield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/AvengersShield_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/AvengingWrath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/AvengingWrath_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BladeOfJustice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BladeOfJustice_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessedBreastplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessedBreastplate_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessingOfKings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessingOfKings_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessingOfWisdom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlessingOfWisdom_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlindingLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/BlindingLight_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Brace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Brace_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ConcentrationAura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ConcentrationAura_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CondemnHeresy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CondemnHeresy_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Consecration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Consecration_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusaderAura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusaderAura_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusaderStrike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusaderStrike_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusadersJudgement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/CrusadersJudgement_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DefendPaladin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DefendPaladin_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DivineBulwark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DivineBulwark_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DivineStorm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/DivineStorm_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EqualizingSwath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EqualizingSwath_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EstablishmentPaladin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EstablishmentPaladin_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ExecutionSentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ExecutionSentence_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EyeForAnEye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/EyeForAnEye_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FaithInTheLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FaithInTheLight_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FistOfTheHeavens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FistOfTheHeavens_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FlashOfLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/FlashOfLight_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/GrandCrusader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/GrandCrusader_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/GuidingStrike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/GuidingStrike_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HammerOfJustice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HammerOfJustice_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HammerOfWrath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HammerOfWrath_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HandOfReckoning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HandOfReckoning_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HolySmite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/HolySmite_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Judgement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Judgement_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeDemandsRetribution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeDemandsRetribution_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeForAll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/JusticeForAll_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/LayOnHands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/LayOnHands_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/LightsMeditation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/LightsMeditation_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfChains.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfChains_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfPiety.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfPiety_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfVigilance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/OathOfVigilance_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Power.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Power_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Power_p.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Prayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Prayer_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Purge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Purge_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RapturousCharge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RapturousCharge_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Rebuke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Rebuke_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Repentance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Repentance_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ResistanceAura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ResistanceAura_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Resolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Resolve_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RetributionAura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RetributionAura_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousAnger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousAnger_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousDuty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousDuty_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousExpulsion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/RighteousExpulsion_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SacredCross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SacredCross_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SentinelStance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SentinelStance_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SeraphStrike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/SeraphStrike_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ShieldUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ShieldUp_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Skill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Skill_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Skill_p.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/StrikePaladin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/StrikePaladin_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/TemplarsVerdict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/TemplarsVerdict_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Thorns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Thorns_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ValiantRush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ValiantRush_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Vindicate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Vindicate_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/WakeOfAshes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/WakeOfAshes_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Zeal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/Zeal_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ZealotsThrust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ZealotsThrust_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ZealousPersecution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/ZealousPersecution_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/cards/beautifu -bouquet color by Studio 7042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/.Tirion 1.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/.Tirion 2.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Left Arm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Legs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Right Arm.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Right Arm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Tirion.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionAnimationIdle3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionAnimationSprite.autosave.scml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionAnimationSprite.scml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionAnimationSprite_000.autosave.scml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionAnimationSprite_000.scml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionIdleAnimation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/TirionIdleAnimation2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/Spriter/Torso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/corpse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/corpse2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/main2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer5d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/layer6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/orb/vfx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/shoulder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/shoulder2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/shoulder3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/skeleton.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/skeleton.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/char/paladinCharacter/skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/Button.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/DefaultCharacterButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/DefaultCharacterPortraitBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/PaladinCharacterButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/PaladinCharacterPortraitBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/charSelect/PortraitBG.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/events/Events.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/events/IdentityCrisisEvent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/events/IdentityCrisisEvent2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/orbs/.SealOfJustice.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/orbs/SealOfJustice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/orbs/SealOfLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/orbs/SealOfRighteousness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/orbs/paladin_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/.GrandCrusaderPower84.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/.devotionPower84.png-autosave.kra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/BracePower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/BracePower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ConcentrationAuraPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ConcentrationAuraPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/Consecration84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ConsecrationPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ConsecrationPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/CrusaderAuraPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/CrusaderAuraPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/GrandCrusaderPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/GrandCrusaderPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/PurgePower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/PurgePower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ResistanceAuraPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/ResistanceAuraPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/RetributionAuraPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/RetributionAuraPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/devotionPower32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/devotionPower84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/powers/placeholder_power84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/Ashbringer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/Relics.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/default_clickable_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/outline/Ashbringer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/outline/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/outline/default_clickable_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/outline/placeholder_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/outline/placeholder_relic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/placeholder_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/relics/placeholder_relic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/images/ui/missing_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Character-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Event-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Keyword-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Orb-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Potion-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Power-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WoWPaladinResources/localization/eng/WoWPaladin-Relic-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615412988822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="First big update after release">
+      <created>1615423390062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615423390062</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +552,7 @@
     <MESSAGE value="Changed Divine Bulwark" />
     <MESSAGE value="Final update before upload" />
     <MESSAGE value="Fixed Oath of Chains" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Oath of Chains" />
+    <MESSAGE value="First big update after release" />
+    <option name="LAST_COMMIT_MESSAGE" value="First big update after release" />
   </component>
 </project>
