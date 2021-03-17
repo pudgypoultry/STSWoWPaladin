@@ -8,7 +8,6 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\RighteousExpulsion.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\LoseFocusPower.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\OathOfVigilance.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\relics\PlaceholderRelic2.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\HandOfReckoning.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\orbs\SealOfLight.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\ResistanceAuraPower.java
@@ -27,7 +26,6 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\OathOfChains.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\Consecration.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\potions\BottledLight.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\relics\PlaceholderRelic.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\Prayer.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\HolyPower.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\OptionCards\SealEvoke.java
@@ -49,7 +47,6 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\WoWPaladin.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\relics\AshbringerRelic.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\util\TextureLoader.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\actions\UncommonPowerAction.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\RapturousCharge.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\OptionCards\SmiteThem.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\actions\HammerOfWrathAction.java
@@ -57,10 +54,8 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\CrusaderAura.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\TemplarsVerdict.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\ConsecrationPower.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\relics\DefaultClickableRelic.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\ZealousPersecution.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\orbs\SealOfRighteousness.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\potions\PlaceholderPotion.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\Zeal.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\LayOnHands.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\EstablishmentPaladin.java
@@ -84,14 +79,12 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\RighteousDuty.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\StrikePaladin.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\BlessingOfKings.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\relics\BottledPlaceholderRelic.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\AbstractDynamicCard.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\ValiantCharge.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\PurgePower.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\orbs\SealOfJustice.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\AvengingWrath.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\variables\DefaultCustomVariable.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\events\IdentityCrisisEvent.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\GrandCrusaderPower.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\WakeOfAshes.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\BlindingLight.java
@@ -103,5 +96,4 @@ C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladi
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\Purge.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\Judgement.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\powers\LoseHolyPower.java
-C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\orbs\DefaultOrb.java
 C:\Users\Andre\Documents\GitHub\STSWoWPaladin\WoWPaladin\src\main\java\WoWPaladin\cards\DivineStorm.java

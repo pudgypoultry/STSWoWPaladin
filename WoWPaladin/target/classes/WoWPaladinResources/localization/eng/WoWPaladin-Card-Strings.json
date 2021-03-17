@@ -1,55 +1,4 @@
 {
-  "WoWPaladin:DefaultCommonAttack": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! Damage. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
-  },
-  "WoWPaladin:DefaultCommonSkill": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block. NL wowpaladin:Multiword_Keyword."
-  },
-  "WoWPaladin:DefaultCommonPower": {
-    "NAME": "Hold Place",
-    "DESCRIPTION": "Gain !M! wowpaladin:Keyword.",
-    "UPGRADE_DESCRIPTION": "Gain !M! wowpaladin:Keywords."
-  },
-  "WoWPaladin:DefaultUncommonAttack": {
-    "NAME": "Big slap",
-    "DESCRIPTION": "Deal !D! Damage."
-  },
-  "WoWPaladin:DefaultUncommonSkill": {
-    "NAME": "A Better Defend",
-    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
-  },
-  "WoWPaladin:DefaultUncommonPower": {
-    "NAME": "Weirdness",
-    "DESCRIPTION": "Gain X wowpaladin:Keywords.",
-    "UPGRADE_DESCRIPTION": "Gain X +1 wowpaladin:Keywords."
-  },
-  "WoWPaladin:DefaultRareAttack": {
-    "NAME": "TOUCH",
-    "DESCRIPTION": "Deal !D! Damage."
-  },
-  "WoWPaladin:DefaultRareSkill": {
-    "NAME": "For Each Loop x2",
-    "DESCRIPTION": "Apply !M! vulnerable to all enemies, 2 times.",
-    "UPGRADE_DESCRIPTION": "Apply !M! vulnerable to all enemies, 3 times."
-  },
-  "WoWPaladin:DefaultRarePower": {
-    "NAME": "In-Progress Form",
-    "DESCRIPTION": "At the start of your turn, play a TOUCH."
-  },
-  "WoWPaladin:DefaultAttackWithVariable": {
-    "NAME": "Special Strike",
-    "DESCRIPTION": "Deal !D! Damage [E] times. NL (Deal !theDefault:ENERGY_DAMAGE! damage total.)"
-  },
-  "WoWPaladin:DefaultSecondMagicNumberSkill": {
-    "NAME": "Cool 2 Number Card",
-    "DESCRIPTION": "Apply !M! vulnerable and !theDefault:SecondMagic! poison to an enemy."
-  },
-  "WoWPaladin:OrbSkill": {
-    "NAME": "Get Orb",
-    "DESCRIPTION": "Channel 1 Default Orb."
-  },
   "WoWPaladin:StrikePaladin": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! Damage."
@@ -57,45 +6,6 @@
   "WoWPaladin:DefendPaladin": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
-  },
-  "WoWPaladin:PaladinCommonPower": {
-    "NAME": "Hold Place",
-    "DESCRIPTION": "Gain !M! WoWPaladin:Keyword.",
-    "UPGRADE_DESCRIPTION": "Gain !M! WoWPaladin:Keywords."
-  },
-  "WoWPaladin:PaladinUncommonAttack": {
-    "NAME": "Big slap",
-    "DESCRIPTION": "Deal !D! Damage.  NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
-  },
-  "WoWPaladin:PaladinUncommonSkill": {
-    "NAME": "A Better Defend",
-    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
-  },
-  "WoWPaladin:PaladinUncommonPower": {
-    "NAME": "Weirdness",
-    "DESCRIPTION": "Gain X WoWPaladin:Keywords.",
-    "UPGRADE_DESCRIPTION": "Gain X +1 WoWPaladin:Keywords."
-  },
-  "WoWPaladin:PaladinRareAttack": {
-    "NAME": "TOUCH",
-    "DESCRIPTION": "Deal !D! Damage."
-  },
-  "WoWPaladin:PaladinRareSkill": {
-    "NAME": "For Each Loop x2",
-    "DESCRIPTION": "Apply !M! vulnerable to all enemies, 2 times.",
-    "UPGRADE_DESCRIPTION": "Apply !M! vulnerable to all enemies, 3 times."
-  },
-  "WoWPaladin:PaladinRarePower": {
-    "NAME": "In-Progress Form",
-    "DESCRIPTION": "At the start of your turn, play a TOUCH."
-  },
-  "WoWPaladin:PaladinAttackWithVariable": {
-    "NAME": "Special Strike",
-    "DESCRIPTION": "Deal !D! Damage [E] times. NL (Deal !WoWPaladin:ENERGY_DAMAGE! damage total.)"
-  },
-  "WoWPaladin:PaladinSecondMagicNumberSkill": {
-    "NAME": "Cool 2 Number Card",
-    "DESCRIPTION": "Apply !M! vulnerable and !WoWPaladin:SecondMagic! poison to an enemy."
   },
   "WoWPaladin:RighteousDuty": {
     "NAME": "Righteous Duty",

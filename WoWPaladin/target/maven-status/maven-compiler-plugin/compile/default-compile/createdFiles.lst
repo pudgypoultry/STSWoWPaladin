@@ -1,7 +1,5 @@
-WoWPaladin\actions\UncommonPowerAction.class
 WoWPaladin\cards\AvengingWrath.class
 WoWPaladin\cards\ExecutionSentence.class
-WoWPaladin\relics\PlaceholderRelic.class
 WoWPaladin\potions\BottledLight.class
 WoWPaladin\cards\Consecration.class
 WoWPaladin\variables\DefaultCustomVariable.class
@@ -24,14 +22,12 @@ WoWPaladin\powers\CrusaderAuraPower.class
 WoWPaladin\powers\LoseRetainPower.class
 WoWPaladin\util\IDCheckDontTouchPls.class
 WoWPaladin\cards\StrikePaladin.class
-WoWPaladin\relics\PlaceholderRelic2.class
 WoWPaladin\cards\FlashOfLight.class
 WoWPaladin\WoWPaladin.class
 WoWPaladin\powers\ResistanceAuraPower.class
 WoWPaladin\characters\ThePaladin.class
 WoWPaladin\powers\ConcentrationAuraPower.class
 WoWPaladin\cards\BlessingOfWisdom.class
-WoWPaladin\events\IdentityCrisisEvent.class
 WoWPaladin\cards\Prayer.class
 WoWPaladin\cards\AbstractDynamicCard.class
 WoWPaladin\characters\ThePaladin$Enums.class
@@ -43,8 +39,6 @@ WoWPaladin\cards\AbstractDefaultCard.class
 WoWPaladin\cards\RighteousDuty.class
 WoWPaladin\cards\ResistanceAura.class
 WoWPaladin\powers\HolyPower.class
-WoWPaladin\potions\PlaceholderPotion.class
-WoWPaladin\orbs\DefaultOrb.class
 WoWPaladin\patches\DefaultInsertPatch$Locator.class
 WoWPaladin\cards\Purge.class
 WoWPaladin\cards\BlindingLight.class
@@ -74,7 +68,6 @@ WoWPaladin\cards\DefendPaladin.class
 WoWPaladin\orbs\SealOfJustice.class
 WoWPaladin\cards\Thorns.class
 WoWPaladin\cards\SeraphStrike.class
-WoWPaladin\relics\BottledPlaceholderRelic.class
 WoWPaladin\cards\ZealousPersecution.class
 WoWPaladin\util\TextureLoader.class
 WoWPaladin\actions\JusticeDemandsRetributionAction.class
@@ -98,7 +91,6 @@ WoWPaladin\cards\EqualizingSwath.class
 WoWPaladin\cards\FistOfTheHeavens.class
 WoWPaladin\cards\ShieldUp.class
 WoWPaladin\cards\BladeOfWrath.class
-WoWPaladin\relics\DefaultClickableRelic.class
 WoWPaladin\cards\Judgement.class
 WoWPaladin\cards\Vindicate.class
 WoWPaladin\cards\WakeOfAshes.class

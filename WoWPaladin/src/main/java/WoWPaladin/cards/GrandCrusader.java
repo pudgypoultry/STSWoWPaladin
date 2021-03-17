@@ -8,9 +8,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 import WoWPaladin.WoWPaladin;
-import WoWPaladin.actions.UncommonPowerAction;
 import WoWPaladin.characters.ThePaladin;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
