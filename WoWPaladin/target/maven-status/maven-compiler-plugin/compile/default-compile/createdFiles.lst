@@ -13,7 +13,6 @@ WoWPaladin\cards\ZealotsThrust.class
 WoWPaladin\cards\OathOfChains.class
 WoWPaladin\actions\HammerOfWrathAction.class
 WoWPaladin\cards\RighteousAnger.class
-WoWPaladin\powers\CommonPower.class
 WoWPaladin\cards\CrusaderStrike.class
 WoWPaladin\cards\Aegis.class
 WoWPaladin\variables\DefaultSecondMagicNumber.class
