@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Purge updated, was incorrectly marked as a debuff">
+    <list default="true" id="cf5fdd78-dc11-4f8d-8048-900e076ba21f" name="Default Changelist" comment="Divine Bulwark nerfed, now exhausts but always costs 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoWPaladin/cards/DivineBulwark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WoWPaladinResources/localization/eng/WoWPaladin-Card-Strings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615581895252</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Divine Bulwark nerfed, now exhausts but always costs 1">
+      <created>1615583604562</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615583604562</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +206,7 @@
     <MESSAGE value="First big update after release" />
     <MESSAGE value="Divine Storm wording fixed" />
     <MESSAGE value="Purge updated, was incorrectly marked as a debuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Purge updated, was incorrectly marked as a debuff" />
+    <MESSAGE value="Divine Bulwark nerfed, now exhausts but always costs 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Divine Bulwark nerfed, now exhausts but always costs 1" />
   </component>
 </project>
