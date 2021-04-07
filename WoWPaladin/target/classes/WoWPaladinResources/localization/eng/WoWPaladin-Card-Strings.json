@@ -262,8 +262,8 @@
   },
   "WoWPaladin:Purge": {
     "NAME": "Purge",
-    "DESCRIPTION": "When you draw a curse, exhaust it and heal !M! HP.",
-    "UPGRADE_DESCRIPTION": "Innate. NL When you draw a curse, exhaust it and heal !M! HP."
+    "DESCRIPTION": "When you draw a curse, exhaust it, heal !M! HP, then draw a card.",
+    "UPGRADE_DESCRIPTION": "Innate. NL When you draw a curse, exhaust it, heal !M! HP, then draw a card."
   },
   "WoWPaladin:ZealousPersecution": {
     "NAME": "Zealous Persecution",

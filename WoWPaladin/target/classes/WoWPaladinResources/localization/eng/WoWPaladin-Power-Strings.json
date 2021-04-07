@@ -53,6 +53,6 @@
         },
         "WoWPaladin:PurgePower": {
                 "NAME": "Purge",
-                "DESCRIPTIONS": ["When you draw a curse, exhaust it and gain #b", " #yHP."]
+                "DESCRIPTIONS": ["When you draw a curse, exhaust it, gain #b", " #yHP, then draw a card."]
         }
 }

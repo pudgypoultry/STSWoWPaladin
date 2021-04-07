@@ -57,7 +57,7 @@ public class GrandCrusaderPower extends AbstractPower{
     @Override
     public void atStartOfTurnPostDraw() {
         this.flash();
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new HolyPower(this.owner, 5), 5));
+        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(this.owner, this.owner, new HolyPower(this.owner, 5), 5));
     }
 
     @Override

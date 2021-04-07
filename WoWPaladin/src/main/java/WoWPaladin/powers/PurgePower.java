@@ -49,6 +49,7 @@ public class PurgePower extends AbstractPower {
             this.flash();
             AbstractDungeon.actionManager.addToTop(new ExhaustSpecificCardAction(card, AbstractDungeon.player.hand));
             AbstractDungeon.player.heal(this.amount);
+            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 1));
         }
 
     }

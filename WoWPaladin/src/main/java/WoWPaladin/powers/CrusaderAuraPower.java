@@ -60,8 +60,10 @@ public class CrusaderAuraPower extends AbstractPower{
         this.flash();
         if(AbstractDungeon.player.hasPower(HolyPower.POWER_ID)){
             int holyAmount = AbstractDungeon.player.getPower(HolyPower.POWER_ID).amount;
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new RetainCardPower(this.owner, holyAmount), holyAmount));
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new LoseRetainPower(this.owner, holyAmount), holyAmount));
+            if(holyAmount > 0){
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new RetainCardPower(this.owner, holyAmount), holyAmount));
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this.owner, this.owner, new LoseRetainPower(this.owner, holyAmount), holyAmount));
+            }
         }
     }
 
