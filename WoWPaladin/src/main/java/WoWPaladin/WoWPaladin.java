@@ -195,9 +195,9 @@ public class WoWPaladin implements
         
         logger.info("Done subscribing");
         
-        logger.info("Creating the color " + ThePaladin.Enums.COLOR_GRAY.toString());
+        logger.info("Creating the color " + ThePaladin.Enums.COLOR_PALADINYELLOW.toString());
         
-        BaseMod.addColor(ThePaladin.Enums.COLOR_GRAY, PALADIN_GRAY, PALADIN_GRAY, PALADIN_GRAY,
+        BaseMod.addColor(ThePaladin.Enums.COLOR_PALADINYELLOW, PALADIN_GRAY, PALADIN_GRAY, PALADIN_GRAY,
                 PALADIN_GRAY, PALADIN_GRAY, PALADIN_GRAY, PALADIN_GRAY,
                 ATTACK_PALADIN_GRAY, SKILL_PALADIN_GRAY, POWER_PALADIN_GRAY, ENERGY_ORB_PALADIN_GRAY,
                 ATTACK_PALADIN_GRAY_PORTRAIT, SKILL_PALADIN_GRAY_PORTRAIT, POWER_PALADIN_GRAY_PORTRAIT,
@@ -373,7 +373,7 @@ public class WoWPaladin implements
         // in order to automatically differentiate which pool to add the relic too.
 
         // This adds a character specific relic. Only when you play with the mentioned color, will you get this relic.
-        BaseMod.addRelicToCustomPool(new AshbringerRelic(), ThePaladin.Enums.COLOR_GRAY);
+        BaseMod.addRelicToCustomPool(new AshbringerRelic(), ThePaladin.Enums.COLOR_PALADINYELLOW);
         
         // This adds a relic to the Shared pool. Every character can find this relic.
         

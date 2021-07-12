@@ -34,7 +34,7 @@ public class BlessingOfKings extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.UNCOMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.SELF;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.POWER;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 2;
     private static final int MAGIC_NUMBER = 2;
     private static final int UPGRADE_MAGIC = 1;

@@ -1,16 +1,11 @@
 package WoWPaladin.cards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.WeakPower;
-import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
 
@@ -39,7 +34,7 @@ public class AvengersShield extends AbstractDynamicCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     private static final CardType TYPE = CardType.ATTACK;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = 1;
     private static final int DAMAGE = 2;

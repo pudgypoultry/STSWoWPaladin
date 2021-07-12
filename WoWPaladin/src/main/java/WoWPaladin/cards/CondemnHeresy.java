@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 import java.util.Iterator;
 
@@ -43,7 +44,7 @@ public class CondemnHeresy extends CustomCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardType TYPE = CardType.ATTACK;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = -1;
     private static final int DAMAGE = 5;
@@ -85,11 +86,18 @@ public class CondemnHeresy extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        int effect = EnergyPanel.totalCount;
+        if (this.energyOnUse != -1)
+            effect = this.energyOnUse;
+        if (p.hasRelic("Chemical X")) {
+            //effect += 2;
+            //p.getRelic("Chemical X").flash();
+        }
         if (AbstractDungeon.getCurrRoom().eliteTrigger || isEliteOrBoss) {
-            AbstractDungeon.actionManager.addToBottom(new SkewerAction(p, m, damage * 2, this.damageTypeForTurn, this.freeToPlayOnce, this.energyOnUse));
+            AbstractDungeon.actionManager.addToBottom(new SkewerAction(p, m, damage * 2, this.damageTypeForTurn, this.freeToPlayOnce, effect));
         }
         else {
-            AbstractDungeon.actionManager.addToBottom(new SkewerAction(p, m, damage, this.damageTypeForTurn, this.freeToPlayOnce, this.energyOnUse));
+            AbstractDungeon.actionManager.addToBottom(new SkewerAction(p, m, damage, this.damageTypeForTurn, this.freeToPlayOnce, effect));
         }
 
     }

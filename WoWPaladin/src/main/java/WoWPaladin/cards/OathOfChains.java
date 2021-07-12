@@ -3,16 +3,13 @@ package WoWPaladin.cards;
 
 import WoWPaladin.WoWPaladin;
 import basemod.abstracts.CustomCard;
-import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import WoWPaladin.characters.ThePaladin;
-import com.megacrit.cardcrawl.powers.PoisonPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
 import java.util.Iterator;
@@ -47,7 +44,7 @@ public class OathOfChains extends CustomCard {
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = 2;
     private static final int BLOCK = 5;

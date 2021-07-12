@@ -4,14 +4,13 @@ import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.unique.LoseEnergyAction;
-import com.megacrit.cardcrawl.actions.unique.SkewerAction;
 import com.megacrit.cardcrawl.actions.watcher.MeditateAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -44,7 +43,7 @@ public class LightsMeditation extends CustomCard {
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = -1;
 
@@ -59,14 +58,21 @@ public class LightsMeditation extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        int effect = EnergyPanel.totalCount;
+        if (this.energyOnUse != -1)
+            effect = this.energyOnUse;
+        if (p.hasRelic("Chemical X")) {
+            effect += 2;
+            p.getRelic("Chemical X").flash();
+        }
         if(this.upgraded){
-            AbstractDungeon.actionManager.addToBottom(new MeditateAction(this.energyOnUse + 1));
+            AbstractDungeon.actionManager.addToBottom(new MeditateAction(effect + 1));
         }
         else{
-            AbstractDungeon.actionManager.addToBottom(new MeditateAction(this.energyOnUse));
+            AbstractDungeon.actionManager.addToBottom(new MeditateAction(effect));
         }
 
-        AbstractDungeon.actionManager.addToBottom(new LoseEnergyAction(this.energyOnUse));
+        AbstractDungeon.actionManager.addToBottom(new LoseEnergyAction(effect));
     }
 
 

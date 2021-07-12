@@ -2,18 +2,12 @@ package WoWPaladin.cards;
 
 import WoWPaladin.OptionCards.SmiteThem;
 import WoWPaladin.WoWPaladin;
-import WoWPaladin.actions.HammerOfWrathAction;
 import WoWPaladin.characters.ThePaladin;
 import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.defect.EvokeOrbAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.optionCards.BecomeAlmighty;
-import com.megacrit.cardcrawl.cards.optionCards.FameAndFortune;
-import com.megacrit.cardcrawl.cards.optionCards.LiveForever;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -47,7 +41,7 @@ public class HammerOfWrath extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.UNCOMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.NONE;
     private static final AbstractCard.CardType TYPE = CardType.SKILL;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 1;
     private static final int MAGIC = 2;
     private static final int UPGRADE_MAGIC = 1;

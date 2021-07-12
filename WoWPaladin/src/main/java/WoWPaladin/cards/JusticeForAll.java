@@ -4,18 +4,15 @@ package WoWPaladin.cards;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
 import WoWPaladin.orbs.SealOfJustice;
-import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-import com.megacrit.cardcrawl.actions.defect.RemoveAllOrbsAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.FlameBarrierPower;
-import com.megacrit.cardcrawl.powers.ThornsPower;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -47,7 +44,7 @@ public class JusticeForAll extends CustomCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = 1;
     private static final int MAGIC = 7;

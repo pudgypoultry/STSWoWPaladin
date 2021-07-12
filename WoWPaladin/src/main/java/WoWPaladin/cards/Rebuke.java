@@ -35,7 +35,7 @@ public class Rebuke extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.ENEMY;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.ATTACK;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 1;
     private static final int DAMAGE = 10;
     private static final int UPGRADE_DAMAGE = 2;

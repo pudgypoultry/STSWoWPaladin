@@ -30,7 +30,7 @@ public class BlessedBreastplate extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.SELF;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 1;
     private static final int BLOCK = 8;
     private static final int UPGRADED_BLOCK = 3;

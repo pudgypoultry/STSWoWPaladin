@@ -1,7 +1,6 @@
 package WoWPaladin.cards;
 
 
-import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -15,7 +14,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
 import com.megacrit.cardcrawl.powers.EquilibriumPower;
-import com.megacrit.cardcrawl.powers.RetainCardPower;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -51,7 +49,7 @@ public class SeraphStrike extends CustomCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardType TYPE = CardType.ATTACK;
-    public static final CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
 
     private static final int COST = 1;
     private static final int DAMAGE = 6;

@@ -38,7 +38,7 @@ public class RighteousAnger extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = CardTarget.ENEMY;
     private static final AbstractCard.CardType TYPE = CardType.ATTACK;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 0;
     private static final int DAMAGE = 0;
 

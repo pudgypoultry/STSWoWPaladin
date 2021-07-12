@@ -3,7 +3,6 @@ package WoWPaladin.cards;
 
 import WoWPaladin.WoWPaladin;
 import WoWPaladin.characters.ThePaladin;
-import WoWPaladin.powers.HolyPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -13,9 +12,6 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.TheBombPower;
-import com.megacrit.cardcrawl.powers.WeakPower;
-
-import java.util.Iterator;
 
 import static WoWPaladin.WoWPaladin.makeCardPath;
 
@@ -38,7 +34,7 @@ public class ExecutionSentence extends CustomCard {
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.ALL_ENEMY;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
-    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_GRAY;
+    public static final AbstractCard.CardColor COLOR = ThePaladin.Enums.COLOR_PALADINYELLOW;
     private static final int COST = 1;
     private static final int MAGIC_NUMBER = 14;
     private static final int UPGRADE_MAGIC = 4;
